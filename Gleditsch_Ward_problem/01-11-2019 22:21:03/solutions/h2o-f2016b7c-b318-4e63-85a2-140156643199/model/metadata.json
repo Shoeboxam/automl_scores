@@ -1,0 +1,1 @@
+{"system": "h2o", "model_id": "f2016b7c-b318-4e63-85a2-140156643199", "model_filename": "/ravens_volume/solvers/models/f2016b7c-b318-4e63-85a2-140156643199", "predictors": ["pmid", "py", "py2", "py3", "terriss", "riveriss", "mariss", "terrAtt", "rivAtt", "marAtt", "minpol", "rbal", "lnkmdist"], "targets": ["mido"]}

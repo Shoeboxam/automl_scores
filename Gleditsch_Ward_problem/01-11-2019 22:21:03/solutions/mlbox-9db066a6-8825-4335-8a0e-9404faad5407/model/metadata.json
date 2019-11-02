@@ -1,0 +1,1 @@
+{"system": "mlbox", "model_id": "9db066a6-8825-4335-8a0e-9404faad5407", "predictors": ["pmid", "py", "py2", "py3", "terriss", "riveriss", "mariss", "terrAtt", "rivAtt", "marAtt", "minpol", "rbal", "lnkmdist"], "targets": ["mido"]}
