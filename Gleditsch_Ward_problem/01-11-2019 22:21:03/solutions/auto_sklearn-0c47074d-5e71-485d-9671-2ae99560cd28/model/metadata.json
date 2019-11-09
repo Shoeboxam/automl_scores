@@ -1,1 +1,0 @@
-{"system": "auto_sklearn", "model_id": "0c47074d-5e71-485d-9671-2ae99560cd28", "predictors": ["pmid", "py", "py2", "py3", "terriss", "riveriss", "mariss", "terrAtt", "rivAtt", "marAtt", "minpol", "rbal", "lnkmdist"], "targets": ["mido"]}
