@@ -1,1 +1,181 @@
-{"id": 26643, "hash_id": "bea5cf885aebbf0ea86403a78d75dc77f2fe9cfca6806bcaac9633a1", "pipelineId": 26643, "is_finished": true, "is_error": false, "status": "COMPLETE", "sent_to_user": true, "details_url": "/d3m-service/stored-response/bea5cf885aebbf0ea86403a78d75dc77f2fe9cfca6806bcaac9633a1", "created": "2019-11-09T22:23:27.501582+00:00", "modified": "2019-11-09T22:23:27.531199+00:00", "systemId": "d3m", "pipeline": {"id": "1", "context": "EVALUATION", "inputs": [{"name": "input dataset"}], "outputs": [{"name": "output", "data": "steps.1.produce"}], "steps": [{"primitive": {"primitive": {"id": "f31f8c1f-d1c5-43e5-a4b2-2ae4a761ef2e", "version": "0.2.0", "pythonPath": "d3m.primitives.data_transformation.denormalize.Common", "name": "Denormalize datasets", "digest": "6a80776d244347f0d29f4358df1cd0286c25f67e03a7e2ee517c6e853e6a9d1f"}, "arguments": {"inputs": {"container": {"data": "inputs.0"}}}, "outputs": [{"id": "produce"}], "hyperparams": {"use_semantic_types": {"value": {"data": {"raw": {"bool": true}}}}}, "users": []}}, {"primitive": {"primitive": {"id": "36d5472c-e0a4-4ed6-a1d0-2665feacff39", "version": "1.5.5", "pythonPath": "d3m.primitives.classification.gaussian_classification.MeanBaseline", "name": "Mean Baseline", "digest": "fddf9d4f8ed4adff089c90181c5d2bb76198ce45ecd54c2386d2544443f59917"}, "arguments": {"inputs": {"container": {"data": "steps.0.produce"}}}, "outputs": [{"id": "produce"}], "hyperparams": {"use_semantic_types": {"value": {"data": {"raw": {"bool": true}}}}}, "users": []}}], "name": "", "description": "", "users": [], "digest": ""}, "scores": [{"metric": {"metric": "ROC_AUC", "k": 0, "posLabel": ""}, "value": {"raw": {"double": 0.5}}, "fold": 0, "randomSeed": 0}, {"metric": {"metric": "ACCURACY", "k": 0, "posLabel": ""}, "value": {"raw": {"double": 0.9722148180007935}}, "fold": 0, "randomSeed": 0}, {"metric": {"metric": "PRECISION", "k": 0, "posLabel": ""}, "value": {"raw": {"double": 0}}, "fold": 0, "randomSeed": 0}, {"metric": {"metric": "RECALL", "k": 0, "posLabel": ""}, "value": {"raw": {"double": 0}}, "fold": 0, "randomSeed": 0}, {"metric": {"metric": "F1", "k": 0, "posLabel": ""}, "value": {"raw": {"double": 0}}, "fold": 0, "randomSeed": 0}], "produce": {"train": "/ravens_volume/test_output/TR10b_DENSE_Chen_Ulf_Grievances/temp/cddad8b9-8fb5-4147-b8b7-597596b184b9.csv", "partials": "/ravens_volume/test_output/TR10b_DENSE_Chen_Ulf_Grievances/temp/d6a58a5e-6887-4175-ade8-4353c6e77c61.csv", "test": "/ravens_volume/test_output/TR10b_DENSE_Chen_Ulf_Grievances/temp/f001c9dc-35f9-468a-9353-cf42d0ae1f70.csv"}}
+{
+  "created": "2019-11-09T22:23:27.501582+00:00",
+  "details_url": "/d3m-service/stored-response/bea5cf885aebbf0ea86403a78d75dc77f2fe9cfca6806bcaac9633a1",
+  "hash_id": "bea5cf885aebbf0ea86403a78d75dc77f2fe9cfca6806bcaac9633a1",
+  "id": 26643,
+  "is_error": false,
+  "is_finished": true,
+  "modified": "2019-11-09T22:23:27.531199+00:00",
+  "pipeline": {
+    "context": "EVALUATION",
+    "description": "",
+    "digest": "",
+    "id": "1",
+    "inputs": [
+      {
+        "name": "input dataset"
+      }
+    ],
+    "name": "",
+    "outputs": [
+      {
+        "data": "steps.1.produce",
+        "name": "output"
+      }
+    ],
+    "steps": [
+      {
+        "primitive": {
+          "arguments": {
+            "inputs": {
+              "container": {
+                "data": "inputs.0"
+              }
+            }
+          },
+          "hyperparams": {
+            "use_semantic_types": {
+              "value": {
+                "data": {
+                  "raw": {
+                    "bool": true
+                  }
+                }
+              }
+            }
+          },
+          "outputs": [
+            {
+              "id": "produce"
+            }
+          ],
+          "primitive": {
+            "digest": "6a80776d244347f0d29f4358df1cd0286c25f67e03a7e2ee517c6e853e6a9d1f",
+            "id": "f31f8c1f-d1c5-43e5-a4b2-2ae4a761ef2e",
+            "name": "Denormalize datasets",
+            "pythonPath": "d3m.primitives.data_transformation.denormalize.Common",
+            "version": "0.2.0"
+          },
+          "users": []
+        }
+      },
+      {
+        "primitive": {
+          "arguments": {
+            "inputs": {
+              "container": {
+                "data": "steps.0.produce"
+              }
+            }
+          },
+          "hyperparams": {
+            "use_semantic_types": {
+              "value": {
+                "data": {
+                  "raw": {
+                    "bool": true
+                  }
+                }
+              }
+            }
+          },
+          "outputs": [
+            {
+              "id": "produce"
+            }
+          ],
+          "primitive": {
+            "digest": "fddf9d4f8ed4adff089c90181c5d2bb76198ce45ecd54c2386d2544443f59917",
+            "id": "36d5472c-e0a4-4ed6-a1d0-2665feacff39",
+            "name": "Mean Baseline",
+            "pythonPath": "d3m.primitives.classification.gaussian_classification.MeanBaseline",
+            "version": "1.5.5"
+          },
+          "users": []
+        }
+      }
+    ],
+    "users": []
+  },
+  "pipelineId": 26643,
+  "produce": {
+    "partials": "/ravens_volume/test_output/TR10b_DENSE_Chen_Ulf_Grievances/temp/d6a58a5e-6887-4175-ade8-4353c6e77c61.csv",
+    "test": "/ravens_volume/test_output/TR10b_DENSE_Chen_Ulf_Grievances/temp/f001c9dc-35f9-468a-9353-cf42d0ae1f70.csv",
+    "train": "/ravens_volume/test_output/TR10b_DENSE_Chen_Ulf_Grievances/temp/cddad8b9-8fb5-4147-b8b7-597596b184b9.csv"
+  },
+  "scores": [
+    {
+      "fold": 0,
+      "metric": {
+        "k": 0,
+        "metric": "ROC_AUC",
+        "posLabel": ""
+      },
+      "randomSeed": 0,
+      "value": {
+        "raw": {
+          "double": 0.5
+        }
+      }
+    },
+    {
+      "fold": 0,
+      "metric": {
+        "k": 0,
+        "metric": "ACCURACY",
+        "posLabel": ""
+      },
+      "randomSeed": 0,
+      "value": {
+        "raw": {
+          "double": 0.9722148180007935
+        }
+      }
+    },
+    {
+      "fold": 0,
+      "metric": {
+        "k": 0,
+        "metric": "PRECISION",
+        "posLabel": ""
+      },
+      "randomSeed": 0,
+      "value": {
+        "raw": {
+          "double": 0
+        }
+      }
+    },
+    {
+      "fold": 0,
+      "metric": {
+        "k": 0,
+        "metric": "RECALL",
+        "posLabel": ""
+      },
+      "randomSeed": 0,
+      "value": {
+        "raw": {
+          "double": 0
+        }
+      }
+    },
+    {
+      "fold": 0,
+      "metric": {
+        "k": 0,
+        "metric": "F1",
+        "posLabel": ""
+      },
+      "randomSeed": 0,
+      "value": {
+        "raw": {
+          "double": 0
+        }
+      }
+    }
+  ],
+  "sent_to_user": true,
+  "status": "COMPLETE",
+  "systemId": "d3m"
+}

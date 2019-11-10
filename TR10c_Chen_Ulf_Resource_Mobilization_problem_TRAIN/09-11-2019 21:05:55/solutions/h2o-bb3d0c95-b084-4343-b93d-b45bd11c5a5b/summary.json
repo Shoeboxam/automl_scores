@@ -1,0 +1,106 @@
+{
+  "description": "deeplearning-unsupervised",
+  "model": "deeplearning-unsupervised",
+  "model_id": "bb3d0c95-b084-4343-b93d-b45bd11c5a5b",
+  "produce": [
+    {
+      "configuration": {
+        "predict_type": "RAW"
+      },
+      "data_pointer": "/ravens_volume/solvers/produce/9dfc3933-871a-4563-8ca0-8bedcd9ad37c.csv",
+      "input": {
+        "name": "test",
+        "resource_uri": "file:///ravens_volume/test_output/TR10c_Chen_Ulf_Resource_Mobilization/additional_inputs/test/ws_489/2019-11-09_17-31-22/tables/learningData.csv"
+      }
+    },
+    {
+      "configuration": {
+        "predict_type": "RAW"
+      },
+      "data_pointer": "/ravens_volume/solvers/produce/d2c1c064-c506-4567-9d1c-d447fd6aafd3.csv",
+      "input": {
+        "name": "train",
+        "resource_uri": "file:///ravens_volume/test_output/TR10c_Chen_Ulf_Resource_Mobilization/additional_inputs/train/ws_489/2019-11-09_17-31-22/tables/learningData.csv"
+      }
+    },
+    {
+      "configuration": {
+        "predict_type": "RAW"
+      },
+      "data_pointer": "/ravens_volume/solvers/produce/aa40478d-29d7-48b7-9a39-7f73f4c53167.csv",
+      "input": {
+        "name": "partials",
+        "resource_uri": "file:///ravens_volume/test_output/TR10c_Chen_Ulf_Resource_Mobilization/additional_inputs/partials/ws_489/2019-11-09_17-31-20/tables/learningData.csv"
+      }
+    },
+    {
+      "configuration": {
+        "predict_type": "PROBABILITIES"
+      },
+      "data_pointer": "/ravens_volume/solvers/produce/1f51162d-4ba6-480e-9444-a5d231c8c22d.csv",
+      "input": {
+        "name": "test",
+        "resource_uri": "file:///ravens_volume/test_output/TR10c_Chen_Ulf_Resource_Mobilization/additional_inputs/test/ws_489/2019-11-09_17-31-22/tables/learningData.csv"
+      }
+    },
+    {
+      "configuration": {
+        "predict_type": "PROBABILITIES"
+      },
+      "data_pointer": "/ravens_volume/solvers/produce/f78192e5-5abe-47aa-be39-91f61e915c24.csv",
+      "input": {
+        "name": "train",
+        "resource_uri": "file:///ravens_volume/test_output/TR10c_Chen_Ulf_Resource_Mobilization/additional_inputs/train/ws_489/2019-11-09_17-31-22/tables/learningData.csv"
+      }
+    },
+    {
+      "configuration": {
+        "predict_type": "PROBABILITIES"
+      },
+      "data_pointer": "/ravens_volume/solvers/produce/519d38da-ad70-4232-b3e6-de5a0ef7ce39.csv",
+      "input": {
+        "name": "partials",
+        "resource_uri": "file:///ravens_volume/test_output/TR10c_Chen_Ulf_Resource_Mobilization/additional_inputs/partials/ws_489/2019-11-09_17-31-20/tables/learningData.csv"
+      }
+    }
+  ],
+  "scores": [
+    {
+      "metric": {
+        "metric": "ROC_AUC"
+      },
+      "target": "nvc.start.1",
+      "value": 0.512016705068296
+    },
+    {
+      "metric": {
+        "metric": "ACCURACY"
+      },
+      "target": "nvc.start.1",
+      "value": 0.9424168694241687
+    },
+    {
+      "metric": {
+        "metric": "PRECISION"
+      },
+      "target": "nvc.start.1",
+      "value": 0.04937253024106573
+    },
+    {
+      "metric": {
+        "metric": "RECALL"
+      },
+      "target": "nvc.start.1",
+      "value": 0.06101311165179778
+    },
+    {
+      "metric": {
+        "metric": "F1"
+      },
+      "target": "nvc.start.1",
+      "value": 0.04160067483817656
+    }
+  ],
+  "search_id": "f2ab7e29-f9bc-46f2-b293-68f57c2cae8b",
+  "system": "h2o"
+}

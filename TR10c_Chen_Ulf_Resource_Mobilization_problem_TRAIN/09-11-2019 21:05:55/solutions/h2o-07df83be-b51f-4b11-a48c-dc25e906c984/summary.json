@@ -1,0 +1,59 @@
+{
+  "description": "glm-unsupervised",
+  "model": "glm-unsupervised",
+  "model_id": "07df83be-b51f-4b11-a48c-dc25e906c984",
+  "produce": [
+    {
+      "configuration": {
+        "predict_type": "RAW"
+      },
+      "data_pointer": "/ravens_volume/solvers/produce/cee12156-080e-4355-b977-e2a5d360db33.csv",
+      "input": {
+        "name": "train",
+        "resource_uri": "file:///ravens_volume/test_output/TR10c_Chen_Ulf_Resource_Mobilization/additional_inputs/train/ws_489/2019-11-09_17-31-22/tables/learningData.csv"
+      }
+    },
+    {
+      "configuration": {
+        "predict_type": "RAW"
+      },
+      "data_pointer": "/ravens_volume/solvers/produce/128d49e4-48c8-4da3-8bb0-ab1a401fed7a.csv",
+      "input": {
+        "name": "partials",
+        "resource_uri": "file:///ravens_volume/test_output/TR10c_Chen_Ulf_Resource_Mobilization/additional_inputs/partials/ws_489/2019-11-09_17-31-20/tables/learningData.csv"
+      }
+    },
+    {
+      "configuration": {
+        "predict_type": "PROBABILITIES"
+      },
+      "data_pointer": "/ravens_volume/solvers/produce/7bfb678d-20c4-4767-a324-ae64722ecf2f.csv",
+      "input": {
+        "name": "test",
+        "resource_uri": "file:///ravens_volume/test_output/TR10c_Chen_Ulf_Resource_Mobilization/additional_inputs/test/ws_489/2019-11-09_17-31-22/tables/learningData.csv"
+      }
+    },
+    {
+      "configuration": {
+        "predict_type": "PROBABILITIES"
+      },
+      "data_pointer": "/ravens_volume/solvers/produce/69976665-8123-442d-a248-2a6589a24765.csv",
+      "input": {
+        "name": "train",
+        "resource_uri": "file:///ravens_volume/test_output/TR10c_Chen_Ulf_Resource_Mobilization/additional_inputs/train/ws_489/2019-11-09_17-31-22/tables/learningData.csv"
+      }
+    },
+    {
+      "configuration": {
+        "predict_type": "PROBABILITIES"
+      },
+      "data_pointer": "/ravens_volume/solvers/produce/281a5362-d3ea-47de-a296-db9947b4fc1c.csv",
+      "input": {
+        "name": "partials",
+        "resource_uri": "file:///ravens_volume/test_output/TR10c_Chen_Ulf_Resource_Mobilization/additional_inputs/partials/ws_489/2019-11-09_17-31-20/tables/learningData.csv"
+      }
+    }
+  ],
+  "search_id": "f2ab7e29-f9bc-46f2-b293-68f57c2cae8b",
+  "system": "h2o"
+}
