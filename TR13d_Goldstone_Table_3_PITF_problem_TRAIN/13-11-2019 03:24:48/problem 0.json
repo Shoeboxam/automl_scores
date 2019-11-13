@@ -1,0 +1,3640 @@
+{
+    "datasetIndices": {},
+    "datasetPaths": {
+        "all": "/ravens_volume/test_data/TR13c_Goldstone_Table_3_PITF/TRAIN/dataset_TRAIN/tables/learningData.csv",
+        "partials": "/ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/partials/ws_526/2019-11-13_03-07-25/tables/learningData.csv",
+        "test": "/ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/test/ws_526/2019-11-13_03-07-26/tables/learningData.csv",
+        "train": "/ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/train/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+    },
+    "datasetPathsManipulated": {},
+    "datasetSchemas": {
+        "all": "/ravens_volume/test_data/TR13c_Goldstone_Table_3_PITF/TRAIN/dataset_TRAIN/datasetDoc.json",
+        "partials": "/ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/partials/ws_526/2019-11-13_03-07-25/datasetDoc.json",
+        "test": "/ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/test/ws_526/2019-11-13_03-07-26/datasetDoc.json",
+        "train": "/ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/train/ws_526/2019-11-13_03-07-26/datasetDoc.json"
+    },
+    "datasetSchemasManipulated": {},
+    "indices": {
+        "all": [
+            307,
+            127,
+            351,
+            408,
+            380,
+            38,
+            52,
+            213,
+            181,
+            314,
+            199,
+            85,
+            43,
+            407,
+            417,
+            260,
+            77,
+            72,
+            186,
+            253,
+            57,
+            118,
+            325,
+            158,
+            36,
+            373,
+            217,
+            67,
+            282,
+            350,
+            439,
+            302,
+            7,
+            197,
+            296,
+            53,
+            174,
+            428,
+            172,
+            299,
+            258,
+            378,
+            152,
+            3,
+            453,
+            448,
+            104,
+            220,
+            191,
+            132,
+            75,
+            195,
+            445,
+            80,
+            228,
+            179,
+            187,
+            295,
+            312,
+            425,
+            377,
+            48,
+            365,
+            246,
+            301,
+            194,
+            221,
+            323,
+            372,
+            93,
+            124,
+            429,
+            251,
+            405,
+            367,
+            84,
+            290,
+            49,
+            401,
+            206,
+            207,
+            297,
+            261,
+            143,
+            81,
+            374,
+            107,
+            137,
+            355,
+            65,
+            126,
+            402,
+            138,
+            259,
+            244,
+            141,
+            268,
+            154,
+            170,
+            376,
+            357,
+            250,
+            139,
+            167,
+            340,
+            339,
+            306,
+            99,
+            162,
+            108,
+            423,
+            100,
+            212,
+            25,
+            239,
+            189,
+            298,
+            329,
+            257,
+            451,
+            6,
+            218,
+            103,
+            34,
+            203,
+            280,
+            422,
+            347,
+            363,
+            444,
+            134,
+            97,
+            395,
+            94,
+            155,
+            348,
+            230,
+            371,
+            278,
+            412,
+            342,
+            335,
+            411,
+            54,
+            291,
+            424,
+            292,
+            166,
+            358,
+            164,
+            242,
+            55,
+            198,
+            223,
+            123,
+            131,
+            309,
+            330,
+            224,
+            234,
+            232,
+            61,
+            176,
+            92,
+            245,
+            273,
+            327,
+            161,
+            63,
+            248,
+            109,
+            105,
+            375,
+            76,
+            121,
+            192,
+            275,
+            19,
+            406,
+            420,
+            5,
+            210,
+            379,
+            30,
+            157,
+            184,
+            98,
+            91,
+            305,
+            79,
+            343,
+            225,
+            78,
+            142,
+            226,
+            432,
+            37,
+            45,
+            356,
+            106,
+            211,
+            62,
+            396,
+            238,
+            370,
+            426,
+            115,
+            153,
+            18,
+            190,
+            430,
+            293,
+            317,
+            240,
+            452,
+            222,
+            27,
+            219,
+            128,
+            270,
+            201,
+            135,
+            265,
+            359,
+            73,
+            129,
+            403,
+            391,
+            144,
+            119,
+            281,
+            353,
+            11,
+            399,
+            177,
+            149,
+            274,
+            446,
+            89,
+            249,
+            287,
+            311,
+            178,
+            2,
+            393,
+            324,
+            156,
+            28,
+            117,
+            50,
+            64,
+            237,
+            398,
+            436,
+            352,
+            288,
+            344,
+            216,
+            1,
+            41,
+            83,
+            66,
+            40,
+            120,
+            247,
+            102,
+            180,
+            209,
+            113,
+            16,
+            150,
+            440,
+            9,
+            31,
+            369,
+            438,
+            235,
+            175,
+            333,
+            215,
+            437,
+            328,
+            13,
+            47,
+            345,
+            338,
+            35,
+            82,
+            390,
+            313,
+            279,
+            74,
+            208,
+            322,
+            410,
+            95,
+            168,
+            346,
+            272,
+            173,
+            308,
+            409,
+            10,
+            86,
+            419,
+            318,
+            163,
+            21,
+            269,
+            214,
+            449,
+            147,
+            20,
+            133,
+            33,
+            300,
+            276,
+            364,
+            44,
+            321,
+            416,
+            266,
+            303,
+            22,
+            286,
+            289,
+            193,
+            263,
+            277,
+            202,
+            454,
+            23,
+            256,
+            366,
+            421,
+            360,
+            58,
+            433,
+            188,
+            427,
+            29,
+            183,
+            320,
+            361,
+            110,
+            384,
+            145,
+            26,
+            243,
+            17,
+            125,
+            151,
+            285,
+            283,
+            42,
+            56,
+            87,
+            148,
+            418,
+            447,
+            387,
+            252,
+            397,
+            122,
+            389,
+            112,
+            294,
+            185,
+            231,
+            319,
+            114,
+            385,
+            46,
+            227,
+            354,
+            264,
+            205,
+            32,
+            388,
+            24,
+            304,
+            51,
+            331,
+            182,
+            200,
+            96,
+            404,
+            116,
+            382,
+            254,
+            39,
+            69,
+            336,
+            8,
+            415,
+            315,
+            146,
+            255,
+            310,
+            262,
+            434,
+            12,
+            59,
+            450,
+            413,
+            160,
+            241,
+            442,
+            284,
+            414,
+            316,
+            88,
+            392,
+            236,
+            349,
+            394,
+            443,
+            140,
+            233,
+            337,
+            368,
+            70,
+            14,
+            441,
+            171,
+            159,
+            326,
+            169,
+            136,
+            383,
+            386,
+            271,
+            431,
+            101,
+            68,
+            0,
+            362,
+            165,
+            71,
+            400,
+            334,
+            4,
+            90,
+            111,
+            196,
+            130,
+            455,
+            60,
+            435,
+            267,
+            15,
+            381,
+            332,
+            341,
+            229,
+            204
+        ],
+        "test": [
+            400,
+            221,
+            298,
+            452,
+            7,
+            253,
+            441,
+            455,
+            417,
+            213,
+            331,
+            364,
+            37,
+            12,
+            435,
+            135,
+            365,
+            198,
+            142,
+            239,
+            55,
+            74,
+            272,
+            381,
+            403,
+            428,
+            377,
+            10,
+            344,
+            175,
+            22,
+            415,
+            118,
+            26,
+            247,
+            246,
+            206,
+            4,
+            160,
+            419,
+            274,
+            71,
+            240,
+            102,
+            1,
+            412,
+            355,
+            319,
+            122,
+            348,
+            311,
+            278,
+            371,
+            350,
+            336,
+            21,
+            52,
+            64,
+            96,
+            100,
+            154,
+            326,
+            78,
+            252,
+            59,
+            402,
+            15,
+            113,
+            369,
+            65,
+            354,
+            313,
+            60,
+            293,
+            421,
+            54,
+            124,
+            261,
+            224,
+            157,
+            276,
+            76,
+            281,
+            191,
+            425,
+            432,
+            395,
+            339,
+            45,
+            383,
+            170,
+            448,
+            68,
+            301,
+            219,
+            6,
+            392,
+            20,
+            361,
+            107,
+            159,
+            8,
+            14,
+            49,
+            134,
+            205,
+            299,
+            171,
+            300,
+            297,
+            384,
+            220,
+            372,
+            81,
+            373,
+            340,
+            249,
+            90,
+            144,
+            200,
+            445,
+            245,
+            56,
+            179,
+            141,
+            309,
+            330,
+            382,
+            411,
+            254,
+            327,
+            5,
+            196,
+            132,
+            225,
+            75,
+            155
+        ],
+        "train": [
+            251,
+            182,
+            287,
+            447,
+            86,
+            120,
+            294,
+            268,
+            357,
+            450,
+            321,
+            29,
+            228,
+            193,
+            2,
+            420,
+            121,
+            241,
+            98,
+            116,
+            24,
+            379,
+            0,
+            259,
+            288,
+            110,
+            162,
+            296,
+            289,
+            194,
+            36,
+            87,
+            266,
+            374,
+            209,
+            325,
+            143,
+            13,
+            229,
+            451,
+            375,
+            427,
+            360,
+            235,
+            323,
+            283,
+            185,
+            210,
+            370,
+            353,
+            150,
+            439,
+            67,
+            312,
+            453,
+            362,
+            401,
+            262,
+            408,
+            376,
+            106,
+            352,
+            310,
+            433,
+            413,
+            33,
+            308,
+            230,
+            128,
+            440,
+            438,
+            51,
+            190,
+            242,
+            186,
+            53,
+            173,
+            238,
+            349,
+            73,
+            79,
+            18,
+            91,
+            280,
+            436,
+            109,
+            397,
+            39,
+            414,
+            57,
+            88,
+            291,
+            214,
+            285,
+            168,
+            199,
+            215,
+            131,
+            386,
+            335,
+            267,
+            367,
+            195,
+            140,
+            391,
+            99,
+            172,
+            407,
+            406,
+            446,
+            38,
+            139,
+            181,
+            147,
+            94,
+            84,
+            77,
+            437,
+            203,
+            34,
+            264,
+            207,
+            399,
+            410,
+            126,
+            387,
+            167,
+            342,
+            72,
+            244,
+            11,
+            115,
+            129,
+            380,
+            114,
+            189,
+            292,
+            164,
+            133,
+            269,
+            93,
+            152,
+            130,
+            138,
+            192,
+            156,
+            314,
+            66,
+            265,
+            404,
+            48,
+            260,
+            430,
+            158,
+            385,
+            204,
+            184,
+            237,
+            322,
+            180,
+            343,
+            368,
+            334,
+            42,
+            304,
+            9,
+            315,
+            424,
+            223,
+            394,
+            176,
+            231,
+            50,
+            61,
+            216,
+            174,
+            307,
+            80,
+            347,
+            302,
+            290,
+            89,
+            117,
+            211,
+            137,
+            202,
+            177,
+            243,
+            103,
+            95,
+            97,
+            345,
+            27,
+            104,
+            63,
+            145,
+            324,
+            332,
+            47,
+            449,
+            208,
+            255,
+            233,
+            337,
+            69,
+            444,
+            434,
+            358,
+            112,
+            46,
+            316,
+            329,
+            62,
+            426,
+            271,
+            418,
+            333,
+            222,
+            28,
+            197,
+            149,
+            92,
+            422,
+            393,
+            165,
+            41,
+            32,
+            201,
+            187,
+            25,
+            232,
+            163,
+            217,
+            416,
+            23,
+            442,
+            258,
+            443,
+            279,
+            263,
+            270,
+            19,
+            227,
+            136,
+            388,
+            273,
+            351,
+            318,
+            146,
+            250,
+            3,
+            125,
+            277,
+            236,
+            16,
+            35,
+            423,
+            454,
+            40,
+            305,
+            218,
+            341,
+            123,
+            30,
+            409,
+            306,
+            226,
+            153,
+            405,
+            248,
+            275,
+            183,
+            431,
+            256,
+            108,
+            111,
+            151,
+            83,
+            317,
+            286,
+            282,
+            31,
+            70,
+            356,
+            169,
+            398,
+            234,
+            284,
+            346,
+            378,
+            212,
+            389,
+            390,
+            295,
+            161,
+            119,
+            429,
+            82,
+            127,
+            105,
+            178,
+            148,
+            58,
+            366,
+            303,
+            44,
+            257,
+            101,
+            359,
+            17,
+            85,
+            166,
+            320,
+            363,
+            43,
+            396,
+            328,
+            188,
+            338
+        ]
+    },
+    "manipulations": [],
+    "meaningful": false,
+    "metric": "rocAuc",
+    "metrics": [
+        "accuracy",
+        "precision",
+        "recall",
+        "f1"
+    ],
+    "pending": false,
+    "predictors": [
+        "sftptv2a3",
+        "sftptv2a4",
+        "sftptv2a5",
+        "sftptv2a2",
+        "sftptv2a6",
+        "logim",
+        "maccat",
+        "disp4cat",
+        "stratidc"
+    ],
+    "problemID": "problem 0",
+    "provenanceID": "TR13c_Goldstone_Table_3_PITF_problem_TRAIN",
+    "scoreOptions": {
+        "evaluationMethod": "kFold",
+        "folds": 10,
+        "splitsFile": "dataSplits.csv",
+        "stratified": true,
+        "trainTestRatio": 0.35
+    },
+    "searchOptions": {
+        "solutionsLimit": 5,
+        "timeBoundSearch": 10
+    },
+    "selectedSolutions": {
+        "d3m": [],
+        "h2o": [
+            "c83ca948-b827-4b2c-8ba3-bdf9fb77299d"
+        ],
+        "mlbox": [],
+        "mljar-supervised": [],
+        "tpot": []
+    },
+    "solutions": {
+        "d3m": {
+            "28992": {
+                "created": "2019-11-13T08:16:20.822332+00:00",
+                "details_url": "/d3m-service/stored-response/53a3d0bde4078523f682e19a7dc75df78a8e70f1345a2b850203a159",
+                "hash_id": "53a3d0bde4078523f682e19a7dc75df78a8e70f1345a2b850203a159",
+                "id": 28992,
+                "is_error": false,
+                "is_finished": true,
+                "modified": "2019-11-13T08:16:20.854724+00:00",
+                "pipeline": {
+                    "context": "EVALUATION",
+                    "description": "",
+                    "digest": "",
+                    "id": "1",
+                    "inputs": [
+                        {
+                            "name": "input dataset"
+                        }
+                    ],
+                    "name": "",
+                    "outputs": [
+                        {
+                            "data": "steps.1.produce",
+                            "name": "output"
+                        }
+                    ],
+                    "steps": [
+                        {
+                            "primitive": {
+                                "arguments": {
+                                    "inputs": {
+                                        "container": {
+                                            "data": "inputs.0"
+                                        }
+                                    }
+                                },
+                                "hyperparams": {
+                                    "use_semantic_types": {
+                                        "value": {
+                                            "data": {
+                                                "raw": {
+                                                    "bool": true
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "outputs": [
+                                    {
+                                        "id": "produce"
+                                    }
+                                ],
+                                "primitive": {
+                                    "digest": "6a80776d244347f0d29f4358df1cd0286c25f67e03a7e2ee517c6e853e6a9d1f",
+                                    "id": "f31f8c1f-d1c5-43e5-a4b2-2ae4a761ef2e",
+                                    "name": "Denormalize datasets",
+                                    "pythonPath": "d3m.primitives.data_transformation.denormalize.Common",
+                                    "version": "0.2.0"
+                                },
+                                "users": []
+                            }
+                        },
+                        {
+                            "primitive": {
+                                "arguments": {
+                                    "inputs": {
+                                        "container": {
+                                            "data": "steps.0.produce"
+                                        }
+                                    }
+                                },
+                                "hyperparams": {
+                                    "use_semantic_types": {
+                                        "value": {
+                                            "data": {
+                                                "raw": {
+                                                    "bool": true
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "outputs": [
+                                    {
+                                        "id": "produce"
+                                    }
+                                ],
+                                "primitive": {
+                                    "digest": "fddf9d4f8ed4adff089c90181c5d2bb76198ce45ecd54c2386d2544443f59917",
+                                    "id": "36d5472c-e0a4-4ed6-a1d0-2665feacff39",
+                                    "name": "Mean Baseline",
+                                    "pythonPath": "d3m.primitives.classification.gaussian_classification.MeanBaseline",
+                                    "version": "1.5.5"
+                                },
+                                "users": []
+                            }
+                        }
+                    ],
+                    "users": []
+                },
+                "pipelineId": 28992,
+                "produce": {
+                    "all": "/ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/temp/fd78eb88-4314-49f0-a856-e0c6604a6437.csv",
+                    "partials": "/ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/temp/8c5ede47-cd85-4399-ae74-093d86825361.csv"
+                },
+                "scores": [
+                    {
+                        "fold": 0,
+                        "metric": {
+                            "k": 0,
+                            "metric": "ROC_AUC",
+                            "posLabel": ""
+                        },
+                        "randomSeed": 0,
+                        "value": {
+                            "raw": {
+                                "double": 0.5
+                            }
+                        }
+                    },
+                    {
+                        "fold": 0,
+                        "metric": {
+                            "k": 0,
+                            "metric": "ACCURACY",
+                            "posLabel": ""
+                        },
+                        "randomSeed": 0,
+                        "value": {
+                            "raw": {
+                                "double": 0.7478070259094238
+                            }
+                        }
+                    },
+                    {
+                        "fold": 0,
+                        "metric": {
+                            "k": 0,
+                            "metric": "PRECISION",
+                            "posLabel": ""
+                        },
+                        "randomSeed": 0,
+                        "value": {
+                            "raw": {
+                                "double": 0
+                            }
+                        }
+                    },
+                    {
+                        "fold": 0,
+                        "metric": {
+                            "k": 0,
+                            "metric": "RECALL",
+                            "posLabel": ""
+                        },
+                        "randomSeed": 0,
+                        "value": {
+                            "raw": {
+                                "double": 0
+                            }
+                        }
+                    },
+                    {
+                        "fold": 0,
+                        "metric": {
+                            "k": 0,
+                            "metric": "F1",
+                            "posLabel": ""
+                        },
+                        "randomSeed": 0,
+                        "value": {
+                            "raw": {
+                                "double": 0
+                            }
+                        }
+                    }
+                ],
+                "sent_to_user": true,
+                "status": "COMPLETE",
+                "systemId": "d3m"
+            },
+            "28994": {
+                "created": "2019-11-13T08:16:21.646496+00:00",
+                "details_url": "/d3m-service/stored-response/f14ce57eb37b0a04834597ba4deeaf334766844a00d7ab70b18f4f74",
+                "hash_id": "f14ce57eb37b0a04834597ba4deeaf334766844a00d7ab70b18f4f74",
+                "id": 28994,
+                "is_error": false,
+                "is_finished": true,
+                "modified": "2019-11-13T08:16:21.676241+00:00",
+                "pipeline": {
+                    "context": "EVALUATION",
+                    "description": "",
+                    "digest": "",
+                    "id": "2",
+                    "inputs": [
+                        {
+                            "name": "input dataset"
+                        }
+                    ],
+                    "name": "",
+                    "outputs": [
+                        {
+                            "data": "steps.1.produce",
+                            "name": "output"
+                        }
+                    ],
+                    "steps": [
+                        {
+                            "primitive": {
+                                "arguments": {
+                                    "inputs": {
+                                        "container": {
+                                            "data": "inputs.0"
+                                        }
+                                    }
+                                },
+                                "hyperparams": {
+                                    "use_semantic_types": {
+                                        "value": {
+                                            "data": {
+                                                "raw": {
+                                                    "bool": true
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "outputs": [
+                                    {
+                                        "id": "produce"
+                                    }
+                                ],
+                                "primitive": {
+                                    "digest": "6a80776d244347f0d29f4358df1cd0286c25f67e03a7e2ee517c6e853e6a9d1f",
+                                    "id": "f31f8c1f-d1c5-43e5-a4b2-2ae4a761ef2e",
+                                    "name": "Denormalize datasets",
+                                    "pythonPath": "d3m.primitives.data_transformation.denormalize.Common",
+                                    "version": "0.2.0"
+                                },
+                                "users": []
+                            }
+                        },
+                        {
+                            "primitive": {
+                                "arguments": {
+                                    "inputs": {
+                                        "container": {
+                                            "data": "steps.0.produce"
+                                        }
+                                    }
+                                },
+                                "hyperparams": {
+                                    "use_semantic_types": {
+                                        "value": {
+                                            "data": {
+                                                "raw": {
+                                                    "bool": true
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "outputs": [
+                                    {
+                                        "id": "produce"
+                                    }
+                                ],
+                                "primitive": {
+                                    "digest": "fddf9d4f8ed4adff089c90181c5d2bb76198ce45ecd54c2386d2544443f59917",
+                                    "id": "36d5472c-e0a4-4ed6-a1d0-2665feacff39",
+                                    "name": "Mean Baseline",
+                                    "pythonPath": "d3m.primitives.classification.gaussian_classification.MeanBaseline",
+                                    "version": "1.5.5"
+                                },
+                                "users": []
+                            }
+                        }
+                    ],
+                    "users": []
+                },
+                "pipelineId": 28994,
+                "produce": {
+                    "all": "/ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/temp/d849418e-45c0-4b3c-a7ef-ab7be7cd9347.csv",
+                    "partials": "/ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/temp/ed68fe52-b93a-4755-b595-ef4abf68fbe8.csv"
+                },
+                "scores": [
+                    {
+                        "fold": 0,
+                        "metric": {
+                            "k": 0,
+                            "metric": "ROC_AUC",
+                            "posLabel": ""
+                        },
+                        "randomSeed": 0,
+                        "value": {
+                            "raw": {
+                                "double": 0.5
+                            }
+                        }
+                    },
+                    {
+                        "fold": 0,
+                        "metric": {
+                            "k": 0,
+                            "metric": "ACCURACY",
+                            "posLabel": ""
+                        },
+                        "randomSeed": 0,
+                        "value": {
+                            "raw": {
+                                "double": 0.7478070259094238
+                            }
+                        }
+                    },
+                    {
+                        "fold": 0,
+                        "metric": {
+                            "k": 0,
+                            "metric": "PRECISION",
+                            "posLabel": ""
+                        },
+                        "randomSeed": 0,
+                        "value": {
+                            "raw": {
+                                "double": 0
+                            }
+                        }
+                    },
+                    {
+                        "fold": 0,
+                        "metric": {
+                            "k": 0,
+                            "metric": "RECALL",
+                            "posLabel": ""
+                        },
+                        "randomSeed": 0,
+                        "value": {
+                            "raw": {
+                                "double": 0
+                            }
+                        }
+                    },
+                    {
+                        "fold": 0,
+                        "metric": {
+                            "k": 0,
+                            "metric": "F1",
+                            "posLabel": ""
+                        },
+                        "randomSeed": 0,
+                        "value": {
+                            "raw": {
+                                "double": 0
+                            }
+                        }
+                    }
+                ],
+                "sent_to_user": true,
+                "status": "COMPLETE",
+                "systemId": "d3m"
+            }
+        },
+        "h2o": {
+            "3f788748-3d63-4189-a1d6-1d85a431e4cb": {
+                "description": "xgboost-unsupervised",
+                "model": "xgboost-unsupervised",
+                "model_id": "3f788748-3d63-4189-a1d6-1d85a431e4cb",
+                "produce": [
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/20602a1c-c891-486c-ba43-9069e2a11b25.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_PITF/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/39069627-11db-44b2-9788-feab4f3a9de7.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_PITF/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/05e90484-eeef-44d7-b019-d9e62a8d6438.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/test/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/4e149980-2a2f-483e-a531-a3fdb4b703e7.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/test/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/e4d0254f-b4fc-4a99-a37b-41fe36313276.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/train/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/9664714a-0ef7-417a-bfc7-0de330c127b5.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/train/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/afa4f6c0-185b-42ae-aa3a-d5dbf33c2cf9.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/partials/ws_526/2019-11-13_03-07-25/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/8e467477-614a-4cfe-acd6-eca731e0f0fb.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/partials/ws_526/2019-11-13_03-07-25/tables/learningData.csv"
+                        }
+                    }
+                ],
+                "scores": [
+                    {
+                        "metric": {
+                            "metric": "ROC_AUC"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.612316715542522
+                    },
+                    {
+                        "metric": {
+                            "metric": "ACCURACY"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.618421052631579
+                    },
+                    {
+                        "metric": {
+                            "metric": "PRECISION"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.350253807106599
+                    },
+                    {
+                        "metric": {
+                            "metric": "RECALL"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.6
+                    },
+                    {
+                        "metric": {
+                            "metric": "F1"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.4423076923076923
+                    }
+                ],
+                "search_id": "12cb4410-dfc3-49b6-a69f-ea8941d7baab",
+                "system": "h2o"
+            },
+            "472462c8-96e8-4151-bd4a-022e92757484": {
+                "description": "xgboost-unsupervised",
+                "model": "xgboost-unsupervised",
+                "model_id": "472462c8-96e8-4151-bd4a-022e92757484",
+                "produce": [
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/375c0d30-a367-433d-8fe5-d181881b26ca.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_PITF/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/ac1be34d-cbf6-428a-b116-dcd363e9d3cc.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_PITF/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/04ae9157-394e-443c-a5ab-f6c80ce71da9.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/test/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/ac294cd0-8c4d-45c8-91cd-eaab1d0937e6.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/test/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/e1045f76-58e1-453b-9659-8fcaed7719d1.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/train/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/c83e27c8-8d0a-401b-aba8-5cccf49d100d.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/train/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/1e3d10e9-89b7-4b69-a437-f95e1db2ba9e.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/partials/ws_526/2019-11-13_03-07-25/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/bf36b22c-cecb-4425-8ff5-5c15881c6800.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/partials/ws_526/2019-11-13_03-07-25/tables/learningData.csv"
+                        }
+                    }
+                ],
+                "scores": [
+                    {
+                        "metric": {
+                            "metric": "ROC_AUC"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.7253219431340049
+                    },
+                    {
+                        "metric": {
+                            "metric": "ACCURACY"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.7960526315789473
+                    },
+                    {
+                        "metric": {
+                            "metric": "PRECISION"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.5982142857142857
+                    },
+                    {
+                        "metric": {
+                            "metric": "RECALL"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.5826086956521739
+                    },
+                    {
+                        "metric": {
+                            "metric": "F1"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.5903083700440528
+                    }
+                ],
+                "search_id": "12cb4410-dfc3-49b6-a69f-ea8941d7baab",
+                "system": "h2o"
+            },
+            "5fe7c9cf-d069-4e11-8462-1809f075fafa": {
+                "description": "drf-unsupervised",
+                "model": "drf-unsupervised",
+                "model_id": "5fe7c9cf-d069-4e11-8462-1809f075fafa",
+                "produce": [
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/54f4ac60-9ec8-423e-ac03-4c9727938e84.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_PITF/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/7544fb37-5cf3-456f-a85a-33271b8523b9.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_PITF/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/b7058c2f-2a2e-4d59-a3e1-f7fb7057454e.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/test/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/025fbbc7-cc31-4d28-a3cb-c726fce74190.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/test/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/221d2898-6785-4cfa-b204-7a207a82e2f4.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/train/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/511f8724-8cee-4947-9cb4-b6e00f00dec3.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/train/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/d720f43d-8df0-4123-a493-ec127cb67550.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/partials/ws_526/2019-11-13_03-07-25/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/fbfcf866-a9d4-4d20-b20d-84f1d0ce83f4.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/partials/ws_526/2019-11-13_03-07-25/tables/learningData.csv"
+                        }
+                    }
+                ],
+                "scores": [
+                    {
+                        "metric": {
+                            "metric": "ROC_AUC"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.8795741425474946
+                    },
+                    {
+                        "metric": {
+                            "metric": "ACCURACY"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.9276315789473685
+                    },
+                    {
+                        "metric": {
+                            "metric": "PRECISION"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.9183673469387755
+                    },
+                    {
+                        "metric": {
+                            "metric": "RECALL"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.782608695652174
+                    },
+                    {
+                        "metric": {
+                            "metric": "F1"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.8450704225352113
+                    }
+                ],
+                "search_id": "12cb4410-dfc3-49b6-a69f-ea8941d7baab",
+                "system": "h2o"
+            },
+            "7e0527eb-5fce-43d2-8530-b263476a4e91": {
+                "description": "stackedensemble-unsupervised",
+                "model": "stackedensemble-unsupervised",
+                "model_id": "7e0527eb-5fce-43d2-8530-b263476a4e91",
+                "produce": [
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/6e2149d9-8f62-4ac9-97ad-a51f8e9bc777.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_PITF/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/fcfa2fbd-29f3-4dcd-a070-99056454e648.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/test/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/b586509d-b663-4c7d-b1a8-dcf9d1470775.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/train/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/2dd382f8-7762-4c53-8d94-7acabfdb6b55.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/train/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/32adb1db-bcd5-4987-a864-8077a803d0b2.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/partials/ws_526/2019-11-13_03-07-25/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/c8172b33-1fc5-4070-8f32-e668060ba4f1.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/partials/ws_526/2019-11-13_03-07-25/tables/learningData.csv"
+                        }
+                    }
+                ],
+                "scores": [
+                    {
+                        "metric": {
+                            "metric": "ROC_AUC"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.761978834629606
+                    },
+                    {
+                        "metric": {
+                            "metric": "ACCURACY"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.8508771929824561
+                    },
+                    {
+                        "metric": {
+                            "metric": "PRECISION"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.7701149425287356
+                    },
+                    {
+                        "metric": {
+                            "metric": "RECALL"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.5826086956521739
+                    },
+                    {
+                        "metric": {
+                            "metric": "F1"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.6633663366336633
+                    }
+                ],
+                "search_id": "12cb4410-dfc3-49b6-a69f-ea8941d7baab",
+                "system": "h2o"
+            },
+            "c1d6acab-2df6-4b06-9b7f-5a1971563711": {
+                "description": "stackedensemble-unsupervised",
+                "model": "stackedensemble-unsupervised",
+                "model_id": "c1d6acab-2df6-4b06-9b7f-5a1971563711",
+                "produce": [
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/2cae58cb-e1f2-4de5-9b11-290ccb57547b.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_PITF/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/084dc577-605d-499d-bfa0-344978ac2ea3.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/test/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/038fcf8d-7ddb-44d7-8c18-ba33b374cc97.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/train/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/c86b2fef-121a-4d9c-aeb6-8c3075c2c415.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/train/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/6ae73b9d-199a-452a-8275-8344ef9ba5bf.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/partials/ws_526/2019-11-13_03-07-25/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/9ab7a855-ba4d-4ac5-b771-476ada535c20.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/partials/ws_526/2019-11-13_03-07-25/tables/learningData.csv"
+                        }
+                    }
+                ],
+                "scores": [
+                    {
+                        "metric": {
+                            "metric": "ROC_AUC"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.761978834629606
+                    },
+                    {
+                        "metric": {
+                            "metric": "ACCURACY"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.8508771929824561
+                    },
+                    {
+                        "metric": {
+                            "metric": "PRECISION"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.7701149425287356
+                    },
+                    {
+                        "metric": {
+                            "metric": "RECALL"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.5826086956521739
+                    },
+                    {
+                        "metric": {
+                            "metric": "F1"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.6633663366336633
+                    }
+                ],
+                "search_id": "12cb4410-dfc3-49b6-a69f-ea8941d7baab",
+                "system": "h2o"
+            },
+            "c83ca948-b827-4b2c-8ba3-bdf9fb77299d": {
+                "description": "glm-unsupervised",
+                "model": "glm-unsupervised",
+                "model_id": "c83ca948-b827-4b2c-8ba3-bdf9fb77299d",
+                "produce": [
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/55f233ef-20eb-4139-b0cc-359040d988a4.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_PITF/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/ccbe5214-8a1a-4aac-b425-bc2c0be1f36e.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/test/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/01382d7a-4952-4ff9-b92f-97e2f866d641.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/train/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/086238cc-fbbc-4e79-83d3-0d8b8e44fc36.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/train/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/d58e3687-b3b5-449d-ba46-ed3de9999f17.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/partials/ws_526/2019-11-13_03-07-25/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/ebf95bcc-d680-4ee8-b4df-3911296f4d4a.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/partials/ws_526/2019-11-13_03-07-25/tables/learningData.csv"
+                        }
+                    }
+                ],
+                "scores": [
+                    {
+                        "metric": {
+                            "metric": "ROC_AUC"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.7286115007012623
+                    },
+                    {
+                        "metric": {
+                            "metric": "ACCURACY"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.831140350877193
+                    },
+                    {
+                        "metric": {
+                            "metric": "PRECISION"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.7317073170731707
+                    },
+                    {
+                        "metric": {
+                            "metric": "RECALL"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.5217391304347826
+                    },
+                    {
+                        "metric": {
+                            "metric": "F1"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.6091370558375635
+                    }
+                ],
+                "search_id": "12cb4410-dfc3-49b6-a69f-ea8941d7baab",
+                "system": "h2o"
+            },
+            "e45c97e9-79ce-4b85-93a1-e26c47c8836c": {
+                "description": "xgboost-unsupervised",
+                "model": "xgboost-unsupervised",
+                "model_id": "e45c97e9-79ce-4b85-93a1-e26c47c8836c",
+                "produce": [
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/5bc4f64b-27d6-4921-b0dc-13b00f1d697b.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_PITF/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/4378ee2e-73ea-4d8b-b08b-7748b3a2dae1.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_PITF/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/568a2de5-1343-4cb7-a3e4-e1283ee2f0ba.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/test/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/3cecf626-a3d0-4c04-9e19-d2ae2d83e8b7.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/test/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/19d8bb1c-e678-4f03-807d-7f88f6521b8a.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/train/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/49679329-4548-4242-9be1-c25619651fdf.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/train/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/b5bc1fc3-3648-4ac1-a0f2-e52fe3fa711f.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/partials/ws_526/2019-11-13_03-07-25/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/ccd4aca2-70bf-4be1-8fba-4e3ad7440c6f.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/partials/ws_526/2019-11-13_03-07-25/tables/learningData.csv"
+                        }
+                    }
+                ],
+                "scores": [
+                    {
+                        "metric": {
+                            "metric": "ROC_AUC"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.7182455692974626
+                    },
+                    {
+                        "metric": {
+                            "metric": "ACCURACY"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.8070175438596491
+                    },
+                    {
+                        "metric": {
+                            "metric": "PRECISION"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.6391752577319587
+                    },
+                    {
+                        "metric": {
+                            "metric": "RECALL"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.5391304347826087
+                    },
+                    {
+                        "metric": {
+                            "metric": "F1"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.5849056603773585
+                    }
+                ],
+                "search_id": "12cb4410-dfc3-49b6-a69f-ea8941d7baab",
+                "system": "h2o"
+            }
+        },
+        "mlbox": {
+            "0498acfd-ba90-41ae-918c-879bb363b56b": {
+                "description": "RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',\n            max_depth=10, max_features='sqrt', max_leaf_nodes=None,\n            min_impurity_decrease=0.0, min_impurity_split=None,\n            min_samples_leaf=1, min_samples_split=2,\n            min_weight_fraction_leaf=0.0, n_estimators=400, n_jobs=-1,\n            oob_score=False, random_state=0, verbose=0, warm_start=False)",
+                "model": "RandomForestClassifier",
+                "model_id": "0498acfd-ba90-41ae-918c-879bb363b56b",
+                "produce": [
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/74aec44c-6a85-47f5-83f4-2027b28da4fc.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_PITF/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/5c5a6f80-b4f3-44fa-9346-a749236a3157.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_PITF/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/436fe5c9-ba30-4012-b4b9-be9570c08142.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/test/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/6a3dbcb3-dc6e-45f3-989f-ce75b6d0ee4d.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/test/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/59f32b78-f119-4b1c-8443-3b2f68cb0b0c.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/train/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/f05b7a7b-c6da-4aaa-a0e9-eff0e701909f.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/train/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/a0e9d00e-0ad1-4742-b998-deef10841a7b.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/partials/ws_526/2019-11-13_03-07-25/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/e4a85083-ab6f-4ab8-a43e-63c0130ea07a.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/partials/ws_526/2019-11-13_03-07-25/tables/learningData.csv"
+                        }
+                    }
+                ],
+                "scores": [
+                    {
+                        "metric": {
+                            "metric": "ROC_AUC"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.6762726362474816
+                    },
+                    {
+                        "metric": {
+                            "metric": "ACCURACY"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.8004385964912281
+                    },
+                    {
+                        "metric": {
+                            "metric": "PRECISION"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.6504838485101644
+                    },
+                    {
+                        "metric": {
+                            "metric": "RECALL"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.4256213450292398
+                    },
+                    {
+                        "metric": {
+                            "metric": "F1"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.5066409375594442
+                    }
+                ],
+                "search_id": "7c83537f-2439-45d8-9fc6-e0f5c803d193",
+                "system": "mlbox"
+            },
+            "19613762-79c3-49a3-b04a-82304a7000f6": {
+                "description": "BaggingClassifier(base_estimator=None, bootstrap=False,\n         bootstrap_features=False, max_features=0.85, max_samples=0.9,\n         n_estimators=500, n_jobs=-1, oob_score=False, random_state=0,\n         verbose=0, warm_start=False)",
+                "model": "BaggingClassifier",
+                "model_id": "19613762-79c3-49a3-b04a-82304a7000f6",
+                "produce": [
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/294d2614-6226-4c2e-95b8-612efe6821ef.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_PITF/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/48ae8ba7-7467-4582-8494-e8866540afb3.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_PITF/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/80ab489c-5332-4794-b179-d42592ad4753.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/test/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/91b8537a-31ce-49ed-b605-f248b4031332.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/test/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/409259aa-f6c3-4f91-8522-2c8d221d549d.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/train/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/b7ba734e-7285-46f0-8793-1e7d6029a527.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/train/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/0221cc76-b382-4b58-82b0-f6e5eb7651d9.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/partials/ws_526/2019-11-13_03-07-25/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/5d3ec746-121e-4e15-ad2d-91e2925a54ef.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/partials/ws_526/2019-11-13_03-07-25/tables/learningData.csv"
+                        }
+                    }
+                ],
+                "scores": [
+                    {
+                        "metric": {
+                            "metric": "ROC_AUC"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.6253886582543703
+                    },
+                    {
+                        "metric": {
+                            "metric": "ACCURACY"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.75
+                    },
+                    {
+                        "metric": {
+                            "metric": "PRECISION"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.5046399141793878
+                    },
+                    {
+                        "metric": {
+                            "metric": "RECALL"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.37368753322700693
+                    },
+                    {
+                        "metric": {
+                            "metric": "F1"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.4237584341635588
+                    }
+                ],
+                "search_id": "7c83537f-2439-45d8-9fc6-e0f5c803d193",
+                "system": "mlbox"
+            },
+            "38de502d-108c-4638-8681-0438c292e21d": {
+                "description": "DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,\n            max_features=None, max_leaf_nodes=None,\n            min_impurity_decrease=0.0, min_impurity_split=None,\n            min_samples_leaf=1, min_samples_split=2,\n            min_weight_fraction_leaf=0.0, presort=False, random_state=0,\n            splitter='best')",
+                "model": "DecisionTreeClassifier",
+                "model_id": "38de502d-108c-4638-8681-0438c292e21d",
+                "produce": [
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/9522724d-e811-4042-8b2f-0c856b328563.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_PITF/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/4781a56d-6ffe-47ba-8809-8d5d3934fef2.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_PITF/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/8b01386b-00a7-4134-927f-764f6dc745f5.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/test/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/1df20778-0039-4cd3-bbc9-b23e6e77a24e.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/test/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/62f5a727-740e-4a58-bde2-e4df2d1aaa2c.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/train/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/13794680-dc74-4b9d-9bcc-d07c1715ea58.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/train/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/cc2856b9-370f-42c0-a42d-b3cf81e07060.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/partials/ws_526/2019-11-13_03-07-25/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/1630eed6-b4ff-455e-949e-f0db4c801446.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/partials/ws_526/2019-11-13_03-07-25/tables/learningData.csv"
+                        }
+                    }
+                ],
+                "scores": [
+                    {
+                        "metric": {
+                            "metric": "ROC_AUC"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.6366698413815287
+                    },
+                    {
+                        "metric": {
+                            "metric": "ACCURACY"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.7192982456140351
+                    },
+                    {
+                        "metric": {
+                            "metric": "PRECISION"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.45975123320808303
+                    },
+                    {
+                        "metric": {
+                            "metric": "RECALL"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.4693480861244019
+                    },
+                    {
+                        "metric": {
+                            "metric": "F1"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.45895474027625055
+                    }
+                ],
+                "search_id": "7c83537f-2439-45d8-9fc6-e0f5c803d193",
+                "system": "mlbox"
+            },
+            "64ff488a-d248-41ef-919f-7cbf4d70bb8f": {
+                "description": "AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,\n          learning_rate=0.05, n_estimators=400, random_state=0)",
+                "model": "AdaBoostClassifier",
+                "model_id": "64ff488a-d248-41ef-919f-7cbf4d70bb8f",
+                "produce": [
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/c0138967-7a60-4dee-a24d-21c69a984fa2.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_PITF/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/6930a075-1d88-46f6-9f4f-2e1004f44711.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_PITF/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/386a1f6b-5472-43f4-93f1-71237cac6b47.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/test/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/6624c8a5-b569-45e6-8487-7c3ddc8326e7.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/test/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/09b9cc73-3b2b-4a0c-a9a6-92ca89205563.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/train/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/8b0bc03a-8123-4c81-87d4-da3d087d7ba6.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/train/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/d58827f2-a03d-4302-92a2-6f70889f1b83.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/partials/ws_526/2019-11-13_03-07-25/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/531b5117-1b30-4f93-b105-15804a4d2611.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/partials/ws_526/2019-11-13_03-07-25/tables/learningData.csv"
+                        }
+                    }
+                ],
+                "scores": [
+                    {
+                        "metric": {
+                            "metric": "ROC_AUC"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.687283968611368
+                    },
+                    {
+                        "metric": {
+                            "metric": "ACCURACY"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.8157894736842105
+                    },
+                    {
+                        "metric": {
+                            "metric": "PRECISION"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.7693903318903319
+                    },
+                    {
+                        "metric": {
+                            "metric": "RECALL"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.42713317384370014
+                    },
+                    {
+                        "metric": {
+                            "metric": "F1"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.5302057826474276
+                    }
+                ],
+                "search_id": "7c83537f-2439-45d8-9fc6-e0f5c803d193",
+                "system": "mlbox"
+            },
+            "87937326-fc82-451c-aaab-d347631f3cfe": {
+                "description": "LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,\n          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=-1,\n          penalty='l2', random_state=0, solver='liblinear', tol=0.0001,\n          verbose=0, warm_start=False)",
+                "model": "LogisticRegression",
+                "model_id": "87937326-fc82-451c-aaab-d347631f3cfe",
+                "produce": [
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/79037845-3e9d-4398-8bc9-22c6fb7ac70f.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_PITF/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/fe429aa8-5bd4-4d46-ba42-0798ffa28871.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_PITF/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/3066e646-82b7-48d7-bed1-a7caf9b18bf3.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/test/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/a50709f0-3506-4807-83aa-d82b991cca59.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/test/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/844a486b-178a-48e3-be4d-96ae0fd09587.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/train/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/1193f660-7259-4266-9e54-1eb7c30b2e67.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/train/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/6bafbff8-7c45-4e01-ab22-1f450a47ef76.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/partials/ws_526/2019-11-13_03-07-25/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/5c82c2e5-2e75-4b89-b77f-19686fcbe75b.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/partials/ws_526/2019-11-13_03-07-25/tables/learningData.csv"
+                        }
+                    }
+                ],
+                "scores": [
+                    {
+                        "metric": {
+                            "metric": "ROC_AUC"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.7083481179553163
+                    },
+                    {
+                        "metric": {
+                            "metric": "ACCURACY"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.8267543859649122
+                    },
+                    {
+                        "metric": {
+                            "metric": "PRECISION"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.7610171261487051
+                    },
+                    {
+                        "metric": {
+                            "metric": "RECALL"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.4693480861244019
+                    },
+                    {
+                        "metric": {
+                            "metric": "F1"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.5732396355741435
+                    }
+                ],
+                "search_id": "7c83537f-2439-45d8-9fc6-e0f5c803d193",
+                "system": "mlbox"
+            },
+            "a9091c3a-c9e7-4110-8f21-57c5d504c1c7": {
+                "description": "ExtraTreesClassifier(bootstrap=True, class_weight=None, criterion='gini',\n           max_depth=10, max_features='sqrt', max_leaf_nodes=None,\n           min_impurity_decrease=0.0, min_impurity_split=None,\n           min_samples_leaf=1, min_samples_split=2,\n           min_weight_fraction_leaf=0.0, n_estimators=400, n_jobs=-1,\n           oob_score=False, random_state=0, verbose=0, warm_start=False)",
+                "model": "ExtraTreesClassifier",
+                "model_id": "a9091c3a-c9e7-4110-8f21-57c5d504c1c7",
+                "produce": [
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/bbb09789-f358-444a-b2a2-6d4e9b08503d.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_PITF/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/ee5d189a-2e93-44cd-8a80-965130b05d3d.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_PITF/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/45587ac1-2196-407f-a31d-7a9f88f8161e.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/test/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/4c5a4f5b-face-41d1-970b-b8985e9c9ecc.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/test/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/6b7e05d1-6c56-4840-922f-80de7b7700f5.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/train/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/08543825-2808-4b2a-a701-2ad77f5dd0ec.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/train/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/c485be5c-a23c-43fa-a110-f85cb8b48d25.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/partials/ws_526/2019-11-13_03-07-25/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/514c525c-99db-4296-b31f-cdff2bf65656.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/partials/ws_526/2019-11-13_03-07-25/tables/learningData.csv"
+                        }
+                    }
+                ],
+                "scores": [
+                    {
+                        "metric": {
+                            "metric": "ROC_AUC"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.6776002506265665
+                    },
+                    {
+                        "metric": {
+                            "metric": "ACCURACY"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.7982456140350878
+                    },
+                    {
+                        "metric": {
+                            "metric": "PRECISION"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.638264221158958
+                    },
+                    {
+                        "metric": {
+                            "metric": "RECALL"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.43421052631578955
+                    },
+                    {
+                        "metric": {
+                            "metric": "F1"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.5082050325288285
+                    }
+                ],
+                "search_id": "7c83537f-2439-45d8-9fc6-e0f5c803d193",
+                "system": "mlbox"
+            },
+            "c0b0e5a4-d726-4b4a-833c-74f742e801d8": {
+                "description": "LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=0.8,\n        importance_type='split', learning_rate=0.05, max_depth=-1,\n        min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,\n        n_estimators=500, n_jobs=-1, nthread=-1, num_leaves=31,\n        objective=None, random_state=None, reg_alpha=0.0, reg_lambda=0.0,\n        seed=0, silent=True, subsample=0.9, subsample_for_bin=200000,\n        subsample_freq=0)",
+                "model": "LGBMClassifier",
+                "model_id": "c0b0e5a4-d726-4b4a-833c-74f742e801d8",
+                "produce": [
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/da26bc3f-c5a1-447f-a66d-1e904eb36b7a.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_PITF/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/797b55fb-d9a2-45d4-92a6-c46953cf59c9.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_PITF/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/1753cde5-a294-45c3-ba0f-d061e11c8a53.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/test/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/dcc13593-7a62-427a-a324-7bb08d184cd6.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/test/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/2d8a0932-77dc-47ef-8595-f2a1aab9e77a.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/train/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/a71d406f-ff37-426c-881b-4dfd67ee14d2.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/train/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/14f24d3d-4b20-40a1-9dd1-a64b0177a992.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/partials/ws_526/2019-11-13_03-07-25/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/1f71c133-ba66-44dc-89d1-35b7ab89eaa5.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/partials/ws_526/2019-11-13_03-07-25/tables/learningData.csv"
+                        }
+                    }
+                ],
+                "scores": [
+                    {
+                        "metric": {
+                            "metric": "ROC_AUC"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.5800789294984342
+                    },
+                    {
+                        "metric": {
+                            "metric": "ACCURACY"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.7171052631578947
+                    },
+                    {
+                        "metric": {
+                            "metric": "PRECISION"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.41474709501025286
+                    },
+                    {
+                        "metric": {
+                            "metric": "RECALL"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.303794524189261
+                    },
+                    {
+                        "metric": {
+                            "metric": "F1"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.3439264940425932
+                    }
+                ],
+                "search_id": "7c83537f-2439-45d8-9fc6-e0f5c803d193",
+                "system": "mlbox"
+            }
+        },
+        "mljar-supervised": {
+            "75966a05-e38d-473e-89b5-92a09452f8f8": {
+                "description": "<supervised.iterative_learner_framework.IterativeLearner object at 0x7f11433f5f28>",
+                "model": "Xgboost",
+                "model_id": "75966a05-e38d-473e-89b5-92a09452f8f8",
+                "produce": [
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/48bb2d18-7bf5-4ec5-a59b-feb5e41749ba.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_PITF/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/d6d92485-7ad4-44c5-af1b-40fb48f89c7c.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_PITF/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/b452e4cd-1a46-4851-ba0a-7079b2e21260.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/test/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/545b5b79-1e72-4ef8-95ff-f63076b10afe.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/test/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/11e7cc36-2622-460f-9a47-d7d6745986c8.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/train/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/233a5a7c-c2ed-4568-bb55-8efc8d78b6b0.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/train/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/c3a7e8bf-875d-4e91-a159-72f625f02191.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/partials/ws_526/2019-11-13_03-07-25/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/c38f4ba9-1b74-4bd3-a744-0b1a2a6ca6d8.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/partials/ws_526/2019-11-13_03-07-25/tables/learningData.csv"
+                        }
+                    }
+                ],
+                "scores": [
+                    {
+                        "metric": {
+                            "metric": "ROC_AUC"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.5584151583280841
+                    },
+                    {
+                        "metric": {
+                            "metric": "ACCURACY"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.756578947368421
+                    },
+                    {
+                        "metric": {
+                            "metric": "PRECISION"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.44699422166527425
+                    },
+                    {
+                        "metric": {
+                            "metric": "RECALL"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.15767876129718233
+                    },
+                    {
+                        "metric": {
+                            "metric": "F1"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.21575814536340854
+                    }
+                ],
+                "search_id": "16d5f135-8429-483e-b94a-b09f5a5a5546",
+                "system": "mljar-supervised"
+            },
+            "854ab9ff-ffe2-42f1-b5d0-54e836ecc6b9": {
+                "description": "<supervised.iterative_learner_framework.IterativeLearner object at 0x7f1249e4b400>",
+                "model": "Xgboost",
+                "model_id": "854ab9ff-ffe2-42f1-b5d0-54e836ecc6b9",
+                "produce": [
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/b2222b03-f957-4981-a9f5-7e884c8e2806.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_PITF/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/45329055-a522-490e-842d-5edd6e31e378.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_PITF/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/69cf8c2b-9515-4dc0-855b-a34c22832531.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/test/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/25bd5007-7693-4c2a-92f0-0c9ba980547b.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/test/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/9604f7fe-c1ad-42df-adef-d79dc11e77ce.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/train/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/2dbaab7c-b1f4-4ea8-a5b9-14f2af1db94d.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/train/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/3d719c76-6793-4443-b5cf-a36b5d1e6e53.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/partials/ws_526/2019-11-13_03-07-25/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/b248761c-4f2f-432e-8894-cf2512204bec.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/partials/ws_526/2019-11-13_03-07-25/tables/learningData.csv"
+                        }
+                    }
+                ],
+                "scores": [
+                    {
+                        "metric": {
+                            "metric": "ROC_AUC"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.5584151583280841
+                    },
+                    {
+                        "metric": {
+                            "metric": "ACCURACY"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.756578947368421
+                    },
+                    {
+                        "metric": {
+                            "metric": "PRECISION"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.44699422166527425
+                    },
+                    {
+                        "metric": {
+                            "metric": "RECALL"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.15767876129718233
+                    },
+                    {
+                        "metric": {
+                            "metric": "F1"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.21575814536340854
+                    }
+                ],
+                "search_id": "16d5f135-8429-483e-b94a-b09f5a5a5546",
+                "system": "mljar-supervised"
+            },
+            "b1928165-5a37-432c-bc8b-84e6fa1aa286": {
+                "description": "<supervised.iterative_learner_framework.IterativeLearner object at 0x7f11434abda0>",
+                "model": "Xgboost",
+                "model_id": "b1928165-5a37-432c-bc8b-84e6fa1aa286",
+                "produce": [
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/c6123497-47a0-4842-af5a-cc179a7cb8bd.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_PITF/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/642f8dc4-53c1-4f36-bc8e-42474496259a.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_PITF/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/fbd40ea0-4044-4696-ae90-df59fd7f73e0.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/test/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/54b78b3c-374c-4501-b919-05be87fe9909.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/test/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/7ff7f4e3-2762-442d-863f-fc9dc50a14cc.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/train/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/633c7295-040c-40ab-a4e3-23bae014d2d3.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/train/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/b5dcac62-e219-4066-8fe5-525a7ea3f16d.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/partials/ws_526/2019-11-13_03-07-25/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/e6923398-d9de-4678-a6c9-73db57afd770.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/partials/ws_526/2019-11-13_03-07-25/tables/learningData.csv"
+                        }
+                    }
+                ],
+                "scores": [
+                    {
+                        "metric": {
+                            "metric": "ROC_AUC"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.5584151583280841
+                    },
+                    {
+                        "metric": {
+                            "metric": "ACCURACY"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.756578947368421
+                    },
+                    {
+                        "metric": {
+                            "metric": "PRECISION"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.44699422166527425
+                    },
+                    {
+                        "metric": {
+                            "metric": "RECALL"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.15767876129718233
+                    },
+                    {
+                        "metric": {
+                            "metric": "F1"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.21575814536340854
+                    }
+                ],
+                "search_id": "16d5f135-8429-483e-b94a-b09f5a5a5546",
+                "system": "mljar-supervised"
+            },
+            "db45e47f-f453-4514-a586-93357b600e67": {
+                "description": "<supervised.models.ensemble.Ensemble object at 0x7f11433d46d8>",
+                "model": "Ensemble",
+                "model_id": "db45e47f-f453-4514-a586-93357b600e67",
+                "produce": [
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/96d6eff1-2f52-447c-a971-636fad642fdd.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_PITF/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/56dd495c-ce1a-48f9-8a58-09c6b03dd001.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/test/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/5225c35c-8a3f-41c7-9bbe-2ebb08cd44e6.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/train/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/f2d7107c-06ef-44bb-9ea5-165c6fbb61e6.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/train/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/b9da8003-7b7a-4717-89ff-a7e4cd823b08.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/partials/ws_526/2019-11-13_03-07-25/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/edd11697-5188-4ab5-8a2b-8192c7fb6b96.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/partials/ws_526/2019-11-13_03-07-25/tables/learningData.csv"
+                        }
+                    }
+                ],
+                "search_id": "16d5f135-8429-483e-b94a-b09f5a5a5546",
+                "system": "mljar-supervised"
+            }
+        },
+        "tpot": {
+            "bd429c08-757b-462a-9f6b-f1bdb297a20b": {
+                "description": "Pipeline(memory=None,\n     steps=[('linearsvc', LinearSVC(C=0.001, class_weight=None, dual=True, fit_intercept=True,\n     intercept_scaling=1, loss='squared_hinge', max_iter=1000,\n     multi_class='ovr', penalty='l2', random_state=None, tol=1e-05,\n     verbose=0))])",
+                "model": "Pipeline",
+                "model_id": "bd429c08-757b-462a-9f6b-f1bdb297a20b",
+                "produce": [
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/87559674-6e64-46df-9609-90955372e12e.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_PITF/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/3f72b6b6-3f67-46c6-a24f-38e8809cb066.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/test/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/c59b48e7-625e-4fad-addd-6e8b427a9294.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/train/ws_526/2019-11-13_03-07-26/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/3e74a0f7-5df4-4928-86fe-e83a1bad0c26.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_PITF/additional_inputs/partials/ws_526/2019-11-13_03-07-25/tables/learningData.csv"
+                        }
+                    }
+                ],
+                "scores": [
+                    {
+                        "metric": {
+                            "metric": "ROC_AUC"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.7156771161415124
+                    },
+                    {
+                        "metric": {
+                            "metric": "ACCURACY"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.8289473684210527
+                    },
+                    {
+                        "metric": {
+                            "metric": "PRECISION"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.7499068852687274
+                    },
+                    {
+                        "metric": {
+                            "metric": "RECALL"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.4869085592769803
+                    },
+                    {
+                        "metric": {
+                            "metric": "F1"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.5838425740759944
+                    }
+                ],
+                "search_id": "a1725539-0249-4616-ae3d-9196918b959c",
+                "system": "tpot"
+            }
+        }
+    },
+    "solverState": {
+        "d3m": {
+            "message": "searching for solutions",
+            "searchId": "1",
+            "thinking": true
+        },
+        "h2o": {
+            "elapsed_time": 31.710729360580444,
+            "message": "search complete",
+            "searchId": "12cb4410-dfc3-49b6-a69f-ea8941d7baab",
+            "thinking": false
+        },
+        "mlbox": {
+            "elapsed_time": 27.09606695175171,
+            "message": "search complete",
+            "searchId": "7c83537f-2439-45d8-9fc6-e0f5c803d193",
+            "thinking": false
+        },
+        "mljar-supervised": {
+            "elapsed_time": 372.8491904735565,
+            "message": "search complete",
+            "searchId": "16d5f135-8429-483e-b94a-b09f5a5a5546",
+            "thinking": false
+        },
+        "tpot": {
+            "elapsed_time": 11.571951627731323,
+            "message": "search complete",
+            "searchId": "a1725539-0249-4616-ae3d-9196918b959c",
+            "thinking": false
+        }
+    },
+    "splitOptions": {
+        "outOfSampleSplit": true,
+        "stratified": true,
+        "trainTestRatio": 0.35
+    },
+    "subTask": "binary",
+    "system": "solved",
+    "tags": {
+        "crossSection": [],
+        "loose": [],
+        "nominal": [],
+        "time": [],
+        "transformed": [],
+        "weights": []
+    },
+    "targets": [
+        "sftpcons"
+    ],
+    "task": "classification",
+    "unedited": true
+}

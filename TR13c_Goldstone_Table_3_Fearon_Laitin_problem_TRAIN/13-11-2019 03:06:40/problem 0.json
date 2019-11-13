@@ -1,0 +1,3808 @@
+{
+    "datasetIndices": {},
+    "datasetPaths": {
+        "all": "/ravens_volume/test_data/TR13c_Goldstone_Table_3_Fearon_Laitin/TRAIN/dataset_TRAIN/tables/learningData.csv",
+        "partials": "/ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/tables/learningData.csv",
+        "test": "/ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/test/ws_525/2019-11-13_02-51-56/tables/learningData.csv",
+        "train": "/ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+    },
+    "datasetPathsManipulated": {},
+    "datasetSchemas": {
+        "all": "/ravens_volume/test_data/TR13c_Goldstone_Table_3_Fearon_Laitin/TRAIN/dataset_TRAIN/datasetDoc.json",
+        "partials": "/ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/datasetDoc.json",
+        "test": "/ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/test/ws_525/2019-11-13_02-51-56/datasetDoc.json",
+        "train": "/ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/datasetDoc.json"
+    },
+    "datasetSchemasManipulated": {},
+    "indices": {
+        "all": [
+            170,
+            326,
+            398,
+            20,
+            382,
+            71,
+            177,
+            136,
+            203,
+            452,
+            442,
+            113,
+            164,
+            439,
+            1,
+            171,
+            181,
+            97,
+            296,
+            95,
+            123,
+            385,
+            365,
+            106,
+            46,
+            34,
+            128,
+            281,
+            99,
+            378,
+            349,
+            430,
+            152,
+            17,
+            133,
+            288,
+            434,
+            226,
+            245,
+            70,
+            350,
+            202,
+            194,
+            161,
+            313,
+            395,
+            103,
+            79,
+            239,
+            362,
+            119,
+            230,
+            331,
+            197,
+            269,
+            431,
+            257,
+            438,
+            335,
+            92,
+            57,
+            193,
+            425,
+            5,
+            446,
+            39,
+            108,
+            436,
+            305,
+            435,
+            220,
+            343,
+            369,
+            88,
+            308,
+            116,
+            156,
+            401,
+            224,
+            107,
+            447,
+            261,
+            423,
+            287,
+            110,
+            373,
+            292,
+            403,
+            89,
+            293,
+            59,
+            235,
+            333,
+            74,
+            311,
+            386,
+            55,
+            146,
+            130,
+            449,
+            320,
+            254,
+            402,
+            383,
+            347,
+            346,
+            214,
+            286,
+            120,
+            370,
+            187,
+            309,
+            399,
+            147,
+            317,
+            9,
+            7,
+            183,
+            429,
+            363,
+            90,
+            138,
+            117,
+            421,
+            222,
+            295,
+            73,
+            279,
+            342,
+            424,
+            184,
+            341,
+            450,
+            149,
+            408,
+            86,
+            427,
+            23,
+            179,
+            360,
+            153,
+            366,
+            441,
+            411,
+            384,
+            236,
+            21,
+            141,
+            36,
+            249,
+            4,
+            132,
+            329,
+            64,
+            199,
+            368,
+            388,
+            357,
+            210,
+            24,
+            328,
+            198,
+            303,
+            10,
+            229,
+            271,
+            104,
+            155,
+            11,
+            111,
+            397,
+            437,
+            139,
+            174,
+            312,
+            201,
+            216,
+            307,
+            67,
+            451,
+            356,
+            96,
+            217,
+            445,
+            225,
+            238,
+            131,
+            294,
+            219,
+            263,
+            208,
+            302,
+            353,
+            240,
+            250,
+            115,
+            19,
+            144,
+            82,
+            29,
+            316,
+            62,
+            277,
+            48,
+            348,
+            205,
+            389,
+            371,
+            118,
+            391,
+            330,
+            125,
+            367,
+            455,
+            76,
+            15,
+            68,
+            251,
+            392,
+            13,
+            332,
+            162,
+            338,
+            172,
+            282,
+            323,
+            14,
+            304,
+            426,
+            65,
+            419,
+            84,
+            47,
+            151,
+            327,
+            94,
+            413,
+            8,
+            223,
+            258,
+            31,
+            53,
+            60,
+            243,
+            196,
+            176,
+            364,
+            310,
+            278,
+            42,
+            412,
+            297,
+            112,
+            259,
+            400,
+            262,
+            414,
+            428,
+            417,
+            253,
+            160,
+            377,
+            339,
+            380,
+            200,
+            173,
+            256,
+            352,
+            44,
+            72,
+            289,
+            237,
+            432,
+            122,
+            33,
+            43,
+            105,
+            301,
+            182,
+            344,
+            85,
+            190,
+            195,
+            325,
+            265,
+            390,
+            415,
+            189,
+            135,
+            267,
+            41,
+            416,
+            129,
+            233,
+            270,
+            91,
+            54,
+            98,
+            255,
+            0,
+            306,
+            167,
+            231,
+            178,
+            6,
+            157,
+            453,
+            35,
+            410,
+            454,
+            300,
+            185,
+            186,
+            372,
+            63,
+            284,
+            3,
+            272,
+            280,
+            148,
+            52,
+            276,
+            154,
+            126,
+            215,
+            443,
+            109,
+            204,
+            102,
+            396,
+            26,
+            268,
+            175,
+            37,
+            252,
+            314,
+            100,
+            298,
+            150,
+            351,
+            77,
+            420,
+            93,
+            75,
+            324,
+            49,
+            319,
+            137,
+            221,
+            322,
+            375,
+            433,
+            2,
+            291,
+            192,
+            394,
+            66,
+            241,
+            318,
+            145,
+            51,
+            359,
+            209,
+            358,
+            274,
+            405,
+            285,
+            422,
+            440,
+            374,
+            334,
+            50,
+            246,
+            355,
+            206,
+            22,
+            218,
+            299,
+            87,
+            406,
+            337,
+            232,
+            211,
+            418,
+            340,
+            159,
+            444,
+            45,
+            345,
+            191,
+            448,
+            283,
+            266,
+            336,
+            32,
+            260,
+            165,
+            404,
+            58,
+            244,
+            409,
+            101,
+            381,
+            158,
+            166,
+            407,
+            168,
+            80,
+            393,
+            273,
+            361,
+            69,
+            61,
+            376,
+            142,
+            315,
+            56,
+            81,
+            213,
+            228,
+            143,
+            30,
+            321,
+            248,
+            163,
+            121,
+            354,
+            16,
+            227,
+            212,
+            180,
+            207,
+            27,
+            124,
+            78,
+            387,
+            25,
+            188,
+            18,
+            12,
+            127,
+            290,
+            83,
+            114,
+            264,
+            40,
+            247,
+            28,
+            379,
+            134,
+            242,
+            140,
+            38,
+            234,
+            169,
+            275
+        ],
+        "test": [
+            142,
+            301,
+            22,
+            175,
+            134,
+            171,
+            412,
+            331,
+            52,
+            56,
+            311,
+            100,
+            124,
+            15,
+            448,
+            355,
+            327,
+            10,
+            102,
+            278,
+            240,
+            107,
+            200,
+            354,
+            455,
+            381,
+            274,
+            239,
+            336,
+            245,
+            297,
+            372,
+            7,
+            299,
+            313,
+            382,
+            159,
+            49,
+            55,
+            26,
+            252,
+            65,
+            14,
+            76,
+            37,
+            319,
+            364,
+            272,
+            435,
+            309,
+            74,
+            348,
+            81,
+            350,
+            21,
+            281,
+            421,
+            224,
+            326,
+            144,
+            191,
+            249,
+            170,
+            157,
+            198,
+            373,
+            1,
+            415,
+            361,
+            160,
+            369,
+            254,
+            122,
+            219,
+            113,
+            400,
+            441,
+            8,
+            365,
+            221,
+            60,
+            45,
+            392,
+            340,
+            383,
+            206,
+            59,
+            213,
+            300,
+            411,
+            298,
+            371,
+            402,
+            64,
+            428,
+            293,
+            20,
+            425,
+            118,
+            196,
+            432,
+            141,
+            377,
+            6,
+            78,
+            419,
+            395,
+            344,
+            205,
+            4,
+            403,
+            155,
+            276,
+            330,
+            261,
+            71,
+            12,
+            5,
+            135,
+            452,
+            384,
+            246,
+            339,
+            417,
+            154,
+            75,
+            179,
+            225,
+            90,
+            132,
+            54,
+            96,
+            445,
+            220,
+            253,
+            247,
+            68
+        ],
+        "train": [
+            173,
+            123,
+            177,
+            385,
+            250,
+            104,
+            407,
+            210,
+            430,
+            82,
+            63,
+            393,
+            279,
+            292,
+            375,
+            334,
+            378,
+            125,
+            114,
+            418,
+            35,
+            390,
+            386,
+            101,
+            180,
+            320,
+            91,
+            347,
+            32,
+            208,
+            99,
+            424,
+            314,
+            302,
+            321,
+            287,
+            343,
+            227,
+            94,
+            143,
+            47,
+            416,
+            268,
+            39,
+            148,
+            438,
+            265,
+            87,
+            23,
+            161,
+            257,
+            291,
+            201,
+            398,
+            195,
+            363,
+            439,
+            48,
+            181,
+            251,
+            351,
+            255,
+            105,
+            69,
+            408,
+            218,
+            237,
+            235,
+            345,
+            38,
+            126,
+            454,
+            58,
+            182,
+            295,
+            192,
+            215,
+            163,
+            323,
+            273,
+            207,
+            388,
+            216,
+            16,
+            248,
+            202,
+            169,
+            296,
+            43,
+            307,
+            420,
+            147,
+            117,
+            193,
+            119,
+            230,
+            129,
+            305,
+            203,
+            109,
+            317,
+            228,
+            57,
+            318,
+            399,
+            217,
+            212,
+            256,
+            280,
+            139,
+            289,
+            140,
+            423,
+            184,
+            152,
+            315,
+            409,
+            234,
+            358,
+            283,
+            40,
+            36,
+            110,
+            121,
+            77,
+            72,
+            233,
+            387,
+            95,
+            106,
+            394,
+            88,
+            42,
+            359,
+            46,
+            176,
+            150,
+            312,
+            149,
+            286,
+            167,
+            379,
+            267,
+            352,
+            316,
+            13,
+            66,
+            178,
+            426,
+            324,
+            183,
+            108,
+            0,
+            271,
+            422,
+            338,
+            310,
+            389,
+            294,
+            67,
+            31,
+            188,
+            136,
+            413,
+            306,
+            86,
+            98,
+            335,
+            404,
+            186,
+            391,
+            368,
+            337,
+            260,
+            3,
+            17,
+            229,
+            332,
+            194,
+            341,
+            370,
+            214,
+            18,
+            89,
+            111,
+            436,
+            444,
+            112,
+            103,
+            366,
+            222,
+            405,
+            442,
+            189,
+            70,
+            158,
+            80,
+            199,
+            396,
+            28,
+            303,
+            53,
+            431,
+            62,
+            162,
+            329,
+            97,
+            27,
+            275,
+            116,
+            174,
+            11,
+            356,
+            226,
+            127,
+            29,
+            353,
+            204,
+            33,
+            79,
+            322,
+            374,
+            284,
+            325,
+            414,
+            41,
+            357,
+            51,
+            197,
+            61,
+            270,
+            429,
+            165,
+            437,
+            153,
+            443,
+            187,
+            262,
+            259,
+            34,
+            131,
+            19,
+            232,
+            190,
+            450,
+            168,
+            164,
+            238,
+            128,
+            243,
+            209,
+            85,
+            242,
+            138,
+            24,
+            266,
+            433,
+            346,
+            44,
+            258,
+            269,
+            440,
+            282,
+            342,
+            434,
+            156,
+            362,
+            166,
+            380,
+            410,
+            50,
+            130,
+            447,
+            333,
+            211,
+            73,
+            84,
+            449,
+            360,
+            172,
+            290,
+            288,
+            401,
+            223,
+            328,
+            285,
+            453,
+            376,
+            446,
+            83,
+            427,
+            120,
+            25,
+            308,
+            367,
+            244,
+            304,
+            185,
+            397,
+            93,
+            277,
+            349,
+            236,
+            241,
+            115,
+            2,
+            30,
+            406,
+            151,
+            264,
+            92,
+            133,
+            137,
+            231,
+            451,
+            146,
+            145,
+            263,
+            9
+        ]
+    },
+    "manipulations": [],
+    "meaningful": false,
+    "metric": "rocAuc",
+    "metrics": [
+        "accuracy",
+        "precision",
+        "recall",
+        "f1"
+    ],
+    "pending": false,
+    "predictors": [
+        "log_gdpc",
+        "logtpop",
+        "logmtn",
+        "feanctig",
+        "floil",
+        "sftpdur2",
+        "ethherf",
+        "relhrel",
+        "anocracy",
+        "democracy",
+        "stratidc"
+    ],
+    "problemID": "problem 0",
+    "provenanceID": "TR13c_Goldstone_Table_3_Fearon_Laitin_problem_TRAIN",
+    "scoreOptions": {
+        "evaluationMethod": "kFold",
+        "folds": 10,
+        "splitsFile": "dataSplits.csv",
+        "stratified": true,
+        "trainTestRatio": 0.35
+    },
+    "searchOptions": {
+        "solutionsLimit": 5,
+        "timeBoundSearch": 10
+    },
+    "selectedSolutions": {
+        "d3m": [],
+        "h2o": [],
+        "mlbox": [],
+        "mljar-supervised": [
+            "4476fbfb-a6a8-4ee0-81e6-6cf7d8ed1727"
+        ],
+        "tpot": []
+    },
+    "solutions": {
+        "d3m": {
+            "28963": {
+                "created": "2019-11-13T08:01:27.517054+00:00",
+                "details_url": "/d3m-service/stored-response/e444458aba5d9e040968127567ab4fa6521cf35f299bc9af6f0c4a97",
+                "hash_id": "e444458aba5d9e040968127567ab4fa6521cf35f299bc9af6f0c4a97",
+                "id": 28963,
+                "is_error": false,
+                "is_finished": true,
+                "modified": "2019-11-13T08:01:27.544730+00:00",
+                "pipeline": {
+                    "context": "EVALUATION",
+                    "description": "",
+                    "digest": "",
+                    "id": "1",
+                    "inputs": [
+                        {
+                            "name": "input dataset"
+                        }
+                    ],
+                    "name": "",
+                    "outputs": [
+                        {
+                            "data": "steps.1.produce",
+                            "name": "output"
+                        }
+                    ],
+                    "steps": [
+                        {
+                            "primitive": {
+                                "arguments": {
+                                    "inputs": {
+                                        "container": {
+                                            "data": "inputs.0"
+                                        }
+                                    }
+                                },
+                                "hyperparams": {
+                                    "use_semantic_types": {
+                                        "value": {
+                                            "data": {
+                                                "raw": {
+                                                    "bool": true
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "outputs": [
+                                    {
+                                        "id": "produce"
+                                    }
+                                ],
+                                "primitive": {
+                                    "digest": "6a80776d244347f0d29f4358df1cd0286c25f67e03a7e2ee517c6e853e6a9d1f",
+                                    "id": "f31f8c1f-d1c5-43e5-a4b2-2ae4a761ef2e",
+                                    "name": "Denormalize datasets",
+                                    "pythonPath": "d3m.primitives.data_transformation.denormalize.Common",
+                                    "version": "0.2.0"
+                                },
+                                "users": []
+                            }
+                        },
+                        {
+                            "primitive": {
+                                "arguments": {
+                                    "inputs": {
+                                        "container": {
+                                            "data": "steps.0.produce"
+                                        }
+                                    }
+                                },
+                                "hyperparams": {
+                                    "use_semantic_types": {
+                                        "value": {
+                                            "data": {
+                                                "raw": {
+                                                    "bool": true
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "outputs": [
+                                    {
+                                        "id": "produce"
+                                    }
+                                ],
+                                "primitive": {
+                                    "digest": "fddf9d4f8ed4adff089c90181c5d2bb76198ce45ecd54c2386d2544443f59917",
+                                    "id": "36d5472c-e0a4-4ed6-a1d0-2665feacff39",
+                                    "name": "Mean Baseline",
+                                    "pythonPath": "d3m.primitives.classification.gaussian_classification.MeanBaseline",
+                                    "version": "1.5.5"
+                                },
+                                "users": []
+                            }
+                        }
+                    ],
+                    "users": []
+                },
+                "pipelineId": 28963,
+                "produce": {
+                    "all": "/ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/temp/984640a6-c180-48a8-80a7-652350db67ee.csv",
+                    "partials": "/ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/temp/99c1159c-b1e4-4ae0-84b6-9a524d6261c3.csv"
+                },
+                "scores": [
+                    {
+                        "fold": 0,
+                        "metric": {
+                            "k": 0,
+                            "metric": "ROC_AUC",
+                            "posLabel": ""
+                        },
+                        "randomSeed": 0,
+                        "value": {
+                            "raw": {
+                                "double": 0.5
+                            }
+                        }
+                    },
+                    {
+                        "fold": 0,
+                        "metric": {
+                            "k": 0,
+                            "metric": "ACCURACY",
+                            "posLabel": ""
+                        },
+                        "randomSeed": 0,
+                        "value": {
+                            "raw": {
+                                "double": 0.7478070259094238
+                            }
+                        }
+                    },
+                    {
+                        "fold": 0,
+                        "metric": {
+                            "k": 0,
+                            "metric": "PRECISION",
+                            "posLabel": ""
+                        },
+                        "randomSeed": 0,
+                        "value": {
+                            "raw": {
+                                "double": 0
+                            }
+                        }
+                    },
+                    {
+                        "fold": 0,
+                        "metric": {
+                            "k": 0,
+                            "metric": "RECALL",
+                            "posLabel": ""
+                        },
+                        "randomSeed": 0,
+                        "value": {
+                            "raw": {
+                                "double": 0
+                            }
+                        }
+                    },
+                    {
+                        "fold": 0,
+                        "metric": {
+                            "k": 0,
+                            "metric": "F1",
+                            "posLabel": ""
+                        },
+                        "randomSeed": 0,
+                        "value": {
+                            "raw": {
+                                "double": 0
+                            }
+                        }
+                    }
+                ],
+                "sent_to_user": true,
+                "status": "COMPLETE",
+                "systemId": "d3m"
+            },
+            "28965": {
+                "created": "2019-11-13T08:01:28.443267+00:00",
+                "details_url": "/d3m-service/stored-response/26b6588abd1d720cc6d9306bb3003b45b1aa81dbcc2460de944dd480",
+                "hash_id": "26b6588abd1d720cc6d9306bb3003b45b1aa81dbcc2460de944dd480",
+                "id": 28965,
+                "is_error": false,
+                "is_finished": true,
+                "modified": "2019-11-13T08:01:28.892932+00:00",
+                "pipeline": {
+                    "context": "EVALUATION",
+                    "description": "",
+                    "digest": "",
+                    "id": "2",
+                    "inputs": [
+                        {
+                            "name": "input dataset"
+                        }
+                    ],
+                    "name": "",
+                    "outputs": [
+                        {
+                            "data": "steps.1.produce",
+                            "name": "output"
+                        }
+                    ],
+                    "steps": [
+                        {
+                            "primitive": {
+                                "arguments": {
+                                    "inputs": {
+                                        "container": {
+                                            "data": "inputs.0"
+                                        }
+                                    }
+                                },
+                                "hyperparams": {
+                                    "use_semantic_types": {
+                                        "value": {
+                                            "data": {
+                                                "raw": {
+                                                    "bool": true
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "outputs": [
+                                    {
+                                        "id": "produce"
+                                    }
+                                ],
+                                "primitive": {
+                                    "digest": "6a80776d244347f0d29f4358df1cd0286c25f67e03a7e2ee517c6e853e6a9d1f",
+                                    "id": "f31f8c1f-d1c5-43e5-a4b2-2ae4a761ef2e",
+                                    "name": "Denormalize datasets",
+                                    "pythonPath": "d3m.primitives.data_transformation.denormalize.Common",
+                                    "version": "0.2.0"
+                                },
+                                "users": []
+                            }
+                        },
+                        {
+                            "primitive": {
+                                "arguments": {
+                                    "inputs": {
+                                        "container": {
+                                            "data": "steps.0.produce"
+                                        }
+                                    }
+                                },
+                                "hyperparams": {
+                                    "use_semantic_types": {
+                                        "value": {
+                                            "data": {
+                                                "raw": {
+                                                    "bool": true
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "outputs": [
+                                    {
+                                        "id": "produce"
+                                    }
+                                ],
+                                "primitive": {
+                                    "digest": "fddf9d4f8ed4adff089c90181c5d2bb76198ce45ecd54c2386d2544443f59917",
+                                    "id": "36d5472c-e0a4-4ed6-a1d0-2665feacff39",
+                                    "name": "Mean Baseline",
+                                    "pythonPath": "d3m.primitives.classification.gaussian_classification.MeanBaseline",
+                                    "version": "1.5.5"
+                                },
+                                "users": []
+                            }
+                        }
+                    ],
+                    "users": []
+                },
+                "pipelineId": 28965,
+                "produce": {
+                    "all": "/ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/temp/a3f39eb3-1f8b-47da-ade0-6d136ad13349.csv",
+                    "partials": "/ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/temp/42a85178-5280-4819-b7f6-ee37d87c3a6b.csv"
+                },
+                "scores": [
+                    {
+                        "fold": 0,
+                        "metric": {
+                            "k": 0,
+                            "metric": "ROC_AUC",
+                            "posLabel": ""
+                        },
+                        "randomSeed": 0,
+                        "value": {
+                            "raw": {
+                                "double": 0.5
+                            }
+                        }
+                    },
+                    {
+                        "fold": 0,
+                        "metric": {
+                            "k": 0,
+                            "metric": "ACCURACY",
+                            "posLabel": ""
+                        },
+                        "randomSeed": 0,
+                        "value": {
+                            "raw": {
+                                "double": 0.7478070259094238
+                            }
+                        }
+                    },
+                    {
+                        "fold": 0,
+                        "metric": {
+                            "k": 0,
+                            "metric": "PRECISION",
+                            "posLabel": ""
+                        },
+                        "randomSeed": 0,
+                        "value": {
+                            "raw": {
+                                "double": 0
+                            }
+                        }
+                    },
+                    {
+                        "fold": 0,
+                        "metric": {
+                            "k": 0,
+                            "metric": "RECALL",
+                            "posLabel": ""
+                        },
+                        "randomSeed": 0,
+                        "value": {
+                            "raw": {
+                                "double": 0
+                            }
+                        }
+                    },
+                    {
+                        "fold": 0,
+                        "metric": {
+                            "k": 0,
+                            "metric": "F1",
+                            "posLabel": ""
+                        },
+                        "randomSeed": 0,
+                        "value": {
+                            "raw": {
+                                "double": 0
+                            }
+                        }
+                    }
+                ],
+                "sent_to_user": true,
+                "status": "COMPLETE",
+                "systemId": "d3m"
+            }
+        },
+        "h2o": {
+            "566eff6a-8584-45a8-b282-b84b63e1639a": {
+                "description": "xgboost-unsupervised",
+                "model": "xgboost-unsupervised",
+                "model_id": "566eff6a-8584-45a8-b282-b84b63e1639a",
+                "produce": [
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/f892754b-532a-4251-82a4-940b1a222918.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_Fearon_Laitin/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/b488e281-8733-47ec-8249-6241f258df83.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_Fearon_Laitin/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/a6ae96d4-4197-4dc4-b414-fa815a59018b.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/test/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/525db7d9-950a-4703-a288-d60d682ac856.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/test/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/b9868f59-ec42-4df2-bf37-3cefacaf1567.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/2fabdc59-98c8-4f61-8476-f25652eadcb4.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/93ec764a-baec-48ad-bf49-14a53ef426ff.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/9ad590c6-26fe-4fe0-9fe6-ee10ba710564.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/tables/learningData.csv"
+                        }
+                    }
+                ],
+                "scores": [
+                    {
+                        "metric": {
+                            "metric": "ROC_AUC"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.7558077266352161
+                    },
+                    {
+                        "metric": {
+                            "metric": "ACCURACY"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.8157894736842105
+                    },
+                    {
+                        "metric": {
+                            "metric": "PRECISION"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.6347826086956522
+                    },
+                    {
+                        "metric": {
+                            "metric": "RECALL"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.6347826086956522
+                    },
+                    {
+                        "metric": {
+                            "metric": "F1"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.6347826086956522
+                    }
+                ],
+                "search_id": "1e45c675-adb9-456b-9d88-4f27618bbbb1",
+                "system": "h2o"
+            },
+            "6d6addf2-fccb-4c17-b9fb-57dc2a44ed97": {
+                "description": "xgboost-unsupervised",
+                "model": "xgboost-unsupervised",
+                "model_id": "6d6addf2-fccb-4c17-b9fb-57dc2a44ed97",
+                "produce": [
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/5f7cdfe1-04b4-42f4-a6a8-644a2216329f.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_Fearon_Laitin/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/96cf9ef6-bf97-45fe-991e-a73f1069bd94.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_Fearon_Laitin/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/906e60e8-b2a8-4ca2-a793-e7dad9cbb7ef.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/test/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/dc601239-fa58-470b-8eff-fd12e97fc196.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/test/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/efafcf2c-2eeb-45bb-8921-e71bd5e86d88.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/57ce23c4-c9d7-4175-b5ed-b234af0985db.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/d360390f-ebd0-477d-bd86-85c9ae8b9332.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/e395036f-9d93-4a9b-885d-93154198215b.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/tables/learningData.csv"
+                        }
+                    }
+                ],
+                "scores": [
+                    {
+                        "metric": {
+                            "metric": "ROC_AUC"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.6669641718730077
+                    },
+                    {
+                        "metric": {
+                            "metric": "ACCURACY"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.6096491228070176
+                    },
+                    {
+                        "metric": {
+                            "metric": "PRECISION"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.37037037037037035
+                    },
+                    {
+                        "metric": {
+                            "metric": "RECALL"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.782608695652174
+                    },
+                    {
+                        "metric": {
+                            "metric": "F1"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.5027932960893855
+                    }
+                ],
+                "search_id": "1e45c675-adb9-456b-9d88-4f27618bbbb1",
+                "system": "h2o"
+            },
+            "7f785382-455b-45d7-bb08-cc802678a296": {
+                "description": "drf-unsupervised",
+                "model": "drf-unsupervised",
+                "model_id": "7f785382-455b-45d7-bb08-cc802678a296",
+                "produce": [
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/f59e4ef7-af99-46ad-b9dd-41a1d730ffab.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_Fearon_Laitin/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/4d26c297-4050-43fe-b344-badd6ebb5c1e.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_Fearon_Laitin/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/12dec338-6fcf-4af6-9211-dc9866685e8e.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/test/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/8af96518-735a-48a2-88bf-15de6f9db41a.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/test/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/b7658fdf-ab76-45ee-8a65-90762634149f.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/a131a6c5-8cd3-4e6f-bcc9-1ebcdc89dd7e.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/e369db18-b9cf-4ce5-a8e5-707c879f8b61.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/7d1f881d-d2a8-4a20-9004-8682c5f8a964.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/tables/learningData.csv"
+                        }
+                    }
+                ],
+                "scores": [
+                    {
+                        "metric": {
+                            "metric": "ROC_AUC"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.8520719112584471
+                    },
+                    {
+                        "metric": {
+                            "metric": "ACCURACY"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.9166666666666666
+                    },
+                    {
+                        "metric": {
+                            "metric": "PRECISION"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.9325842696629213
+                    },
+                    {
+                        "metric": {
+                            "metric": "RECALL"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.7217391304347827
+                    },
+                    {
+                        "metric": {
+                            "metric": "F1"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.8137254901960784
+                    }
+                ],
+                "search_id": "1e45c675-adb9-456b-9d88-4f27618bbbb1",
+                "system": "h2o"
+            },
+            "93e051bc-46ff-4a57-853f-e092ca51eb3f": {
+                "description": "glm-unsupervised",
+                "model": "glm-unsupervised",
+                "model_id": "93e051bc-46ff-4a57-853f-e092ca51eb3f",
+                "produce": [
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/6a4b238b-0d6c-46a1-8882-cb33ae8828b5.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_Fearon_Laitin/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/2aef51e8-ae96-4e8d-8344-1df14cd17bd2.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/test/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/f63735cd-1db2-49b7-84ed-fd6d812fa6c0.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/229f5655-678e-45fc-a9ec-c4386b668518.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/9bd54d36-85d7-41e6-89ca-14572fcaa862.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/d8d4b7c3-4fdc-454c-9bb9-0cee42bca254.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/tables/learningData.csv"
+                        }
+                    }
+                ],
+                "scores": [
+                    {
+                        "metric": {
+                            "metric": "ROC_AUC"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.6718730077776361
+                    },
+                    {
+                        "metric": {
+                            "metric": "ACCURACY"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.6600877192982456
+                    },
+                    {
+                        "metric": {
+                            "metric": "PRECISION"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.4
+                    },
+                    {
+                        "metric": {
+                            "metric": "RECALL"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.6956521739130435
+                    },
+                    {
+                        "metric": {
+                            "metric": "F1"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.507936507936508
+                    }
+                ],
+                "search_id": "1e45c675-adb9-456b-9d88-4f27618bbbb1",
+                "system": "h2o"
+            },
+            "d7abbd09-9a6c-4181-8125-1d606d5a76a9": {
+                "description": "xgboost-unsupervised",
+                "model": "xgboost-unsupervised",
+                "model_id": "d7abbd09-9a6c-4181-8125-1d606d5a76a9",
+                "produce": [
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/6b00911c-0448-4319-a2af-7bd6d83e5788.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_Fearon_Laitin/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/417c6c6d-7d21-476e-8436-4e7575d397bf.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_Fearon_Laitin/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/ca42f8f7-4c3e-41e7-a392-f6c2b5fd1944.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/test/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/cea41539-000d-4c11-8c5d-b036d31240d1.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/test/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/f2a8a8a4-bc96-4e32-b9d6-47233d03ec9b.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/4aa6aee3-50dc-4ac4-85a6-3e134443a782.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/657ab64e-87d8-4783-94f9-96a3fae542d4.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/64c9b726-5d5f-42a7-aeac-db170c79027d.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/tables/learningData.csv"
+                        }
+                    }
+                ],
+                "scores": [
+                    {
+                        "metric": {
+                            "metric": "ROC_AUC"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.6913935993879893
+                    },
+                    {
+                        "metric": {
+                            "metric": "ACCURACY"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.7280701754385965
+                    },
+                    {
+                        "metric": {
+                            "metric": "PRECISION"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.47019867549668876
+                    },
+                    {
+                        "metric": {
+                            "metric": "RECALL"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.6173913043478261
+                    },
+                    {
+                        "metric": {
+                            "metric": "F1"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.5338345864661654
+                    }
+                ],
+                "search_id": "1e45c675-adb9-456b-9d88-4f27618bbbb1",
+                "system": "h2o"
+            },
+            "e446129f-fc5a-4a59-ac12-aa72c4c7803d": {
+                "description": "stackedensemble-unsupervised",
+                "model": "stackedensemble-unsupervised",
+                "model_id": "e446129f-fc5a-4a59-ac12-aa72c4c7803d",
+                "produce": [
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/c2c9fd3a-2c91-480b-883f-62012e2cf34d.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_Fearon_Laitin/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/a0614f52-c097-4bb9-a250-68bc9c757711.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/test/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/5f631e5a-8778-4213-aa5f-501f51b45c9e.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/daacf6f7-c88c-44e7-951c-397e1945c77b.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/ef044d74-db35-4561-8b69-ceddfd963164.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/197afa7b-8e08-4c3c-95ab-6ed6ab8a65a9.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/tables/learningData.csv"
+                        }
+                    }
+                ],
+                "scores": [
+                    {
+                        "metric": {
+                            "metric": "ROC_AUC"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.7044753283182456
+                    },
+                    {
+                        "metric": {
+                            "metric": "ACCURACY"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.6140350877192983
+                    },
+                    {
+                        "metric": {
+                            "metric": "PRECISION"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.3849056603773585
+                    },
+                    {
+                        "metric": {
+                            "metric": "RECALL"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.8869565217391304
+                    },
+                    {
+                        "metric": {
+                            "metric": "F1"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.5368421052631579
+                    }
+                ],
+                "search_id": "1e45c675-adb9-456b-9d88-4f27618bbbb1",
+                "system": "h2o"
+            },
+            "f498e8c9-b9c4-4110-aa1f-d0da32a77784": {
+                "description": "stackedensemble-unsupervised",
+                "model": "stackedensemble-unsupervised",
+                "model_id": "f498e8c9-b9c4-4110-aa1f-d0da32a77784",
+                "produce": [
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/e579b23a-99a4-47a8-b5ec-039abf8e5d05.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_Fearon_Laitin/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/29f2e768-1512-4cde-b52a-36f79d46c8bf.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/test/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/a971dcf3-b805-4217-8d6a-dec89792a9e3.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/fe061004-33bb-4529-9f35-82dba7f872a1.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/0c70a002-16ec-471b-9021-8aa058e28e14.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/db077ca1-3e25-41ba-8b7f-b8586256c54e.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/tables/learningData.csv"
+                        }
+                    }
+                ],
+                "scores": [
+                    {
+                        "metric": {
+                            "metric": "ROC_AUC"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.7546857069998726
+                    },
+                    {
+                        "metric": {
+                            "metric": "ACCURACY"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.7192982456140351
+                    },
+                    {
+                        "metric": {
+                            "metric": "PRECISION"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.46798029556650245
+                    },
+                    {
+                        "metric": {
+                            "metric": "RECALL"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.8260869565217391
+                    },
+                    {
+                        "metric": {
+                            "metric": "F1"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.5974842767295598
+                    }
+                ],
+                "search_id": "1e45c675-adb9-456b-9d88-4f27618bbbb1",
+                "system": "h2o"
+            }
+        },
+        "mlbox": {
+            "26518a5f-2d39-485f-a554-32284d6cf738": {
+                "description": "RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',\n            max_depth=10, max_features='sqrt', max_leaf_nodes=None,\n            min_impurity_decrease=0.0, min_impurity_split=None,\n            min_samples_leaf=1, min_samples_split=2,\n            min_weight_fraction_leaf=0.0, n_estimators=400, n_jobs=-1,\n            oob_score=False, random_state=0, verbose=0, warm_start=False)",
+                "model": "RandomForestClassifier",
+                "model_id": "26518a5f-2d39-485f-a554-32284d6cf738",
+                "produce": [
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/fb2f4271-748a-42c6-b156-01dad5973066.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_Fearon_Laitin/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/926d8e12-97ff-4b7a-a08a-bc3e308d111c.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_Fearon_Laitin/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/614f357c-dd37-4c33-a849-afa85db264d4.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/test/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/1666ab4a-90b2-460a-bafe-bd3280081123.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/test/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/625cb2f7-0fdd-43b4-9655-66c86ba87a4e.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/7ae0b07c-bae5-4764-a22c-14c83f333b49.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/a306cc9e-2ab1-4264-be3f-f285b9b41078.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/67730394-5a65-4d89-88c9-17caec18e1c0.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/tables/learningData.csv"
+                        }
+                    }
+                ],
+                "scores": [
+                    {
+                        "metric": {
+                            "metric": "ROC_AUC"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.48867222925852954
+                    },
+                    {
+                        "metric": {
+                            "metric": "ACCURACY"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.6929824561403509
+                    },
+                    {
+                        "metric": {
+                            "metric": "PRECISION"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.13985745614035086
+                    },
+                    {
+                        "metric": {
+                            "metric": "RECALL"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.0769703615098352
+                    },
+                    {
+                        "metric": {
+                            "metric": "F1"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.09615436485599024
+                    }
+                ],
+                "search_id": "9d33234b-d268-48fd-8ac8-1019f6a28d2a",
+                "system": "mlbox"
+            },
+            "29397c9e-5a82-4501-87d4-89620fcec559": {
+                "description": "BaggingClassifier(base_estimator=None, bootstrap=False,\n         bootstrap_features=False, max_features=0.85, max_samples=0.9,\n         n_estimators=500, n_jobs=-1, oob_score=False, random_state=0,\n         verbose=0, warm_start=False)",
+                "model": "BaggingClassifier",
+                "model_id": "29397c9e-5a82-4501-87d4-89620fcec559",
+                "produce": [
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/c58036c6-e2fb-40a7-9478-312446468c2c.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_Fearon_Laitin/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/53461989-473e-4c3b-85d7-f0bd577abf68.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_Fearon_Laitin/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/347007bf-443e-44d7-970c-8df8241983d0.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/test/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/b85ddf8f-903b-4bb1-925b-5df7206591d6.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/test/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/cf0b19ce-7a48-48ef-b61a-c8895ac297e9.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/2e7795c7-58ad-4a6a-8cfd-9d2d8906fe1d.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/164a865f-9df8-4c2c-8870-18a2c0b46849.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/3f8c1d63-6376-4aed-94e2-ba922c4fba51.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/tables/learningData.csv"
+                        }
+                    }
+                ],
+                "scores": [
+                    {
+                        "metric": {
+                            "metric": "ROC_AUC"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.49367515546888613
+                    },
+                    {
+                        "metric": {
+                            "metric": "ACCURACY"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.6491228070175439
+                    },
+                    {
+                        "metric": {
+                            "metric": "PRECISION"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.210014832876675
+                    },
+                    {
+                        "metric": {
+                            "metric": "RECALL"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.18067185007974482
+                    },
+                    {
+                        "metric": {
+                            "metric": "F1"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.1871712899673426
+                    }
+                ],
+                "search_id": "9d33234b-d268-48fd-8ac8-1019f6a28d2a",
+                "system": "mlbox"
+            },
+            "317e18d5-8b25-4515-bd1e-3942a6c6b486": {
+                "description": "LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=0.8,\n        importance_type='split', learning_rate=0.05, max_depth=-1,\n        min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,\n        n_estimators=500, n_jobs=-1, nthread=-1, num_leaves=31,\n        objective=None, random_state=None, reg_alpha=0.0, reg_lambda=0.0,\n        seed=0, silent=True, subsample=0.9, subsample_for_bin=200000,\n        subsample_freq=0)",
+                "model": "LGBMClassifier",
+                "model_id": "317e18d5-8b25-4515-bd1e-3942a6c6b486",
+                "produce": [
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/fcaf1362-4ca6-4e3c-bd50-29588807d383.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_Fearon_Laitin/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/d712eb02-e6c4-492c-a49c-993d2cbc5231.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_Fearon_Laitin/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/7f898de0-8359-4784-91f1-cc69385350a8.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/test/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/246f0062-2b3a-4917-b4af-41a711010a9d.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/test/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/9ea5011d-6954-406e-a549-c63302cd5762.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/5ef1d009-763f-4467-b86d-64ac33c92c92.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/639701a6-a11c-4f82-a904-eafcad450879.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/c70d8fea-6cac-4da2-807d-781193ed3c33.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/tables/learningData.csv"
+                        }
+                    }
+                ],
+                "scores": [
+                    {
+                        "metric": {
+                            "metric": "ROC_AUC"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.4931979430528193
+                    },
+                    {
+                        "metric": {
+                            "metric": "ACCURACY"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.6337719298245614
+                    },
+                    {
+                        "metric": {
+                            "metric": "PRECISION"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.2098766279300335
+                    },
+                    {
+                        "metric": {
+                            "metric": "RECALL"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.209280303030303
+                    },
+                    {
+                        "metric": {
+                            "metric": "F1"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.20320072627388908
+                    }
+                ],
+                "search_id": "9d33234b-d268-48fd-8ac8-1019f6a28d2a",
+                "system": "mlbox"
+            },
+            "585a6cf5-a125-4506-a52d-6843e0fc15c9": {
+                "description": "DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,\n            max_features=None, max_leaf_nodes=None,\n            min_impurity_decrease=0.0, min_impurity_split=None,\n            min_samples_leaf=1, min_samples_split=2,\n            min_weight_fraction_leaf=0.0, presort=False, random_state=0,\n            splitter='best')",
+                "model": "DecisionTreeClassifier",
+                "model_id": "585a6cf5-a125-4506-a52d-6843e0fc15c9",
+                "produce": [
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/4e556f4b-69c1-482b-9fb0-ae1c88a1e8e8.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_Fearon_Laitin/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/49976a36-dce1-449c-b2fe-ce0d8e60fb26.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_Fearon_Laitin/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/6b614882-1284-4027-a36f-18306e2a4278.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/test/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/9c26b3e2-b7cb-4085-b382-67e1198da126.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/test/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/14d969d6-ab60-48b5-9595-000e3a764857.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/c526689c-f616-4ada-81ba-55971fff941c.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/580910ff-f3b0-4d63-b0b6-5274e35e5ea8.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/1a2b611a-f7f9-4324-96fb-3805b2aa1ea5.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/tables/learningData.csv"
+                        }
+                    }
+                ],
+                "scores": [
+                    {
+                        "metric": {
+                            "metric": "ROC_AUC"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.5280297585541394
+                    },
+                    {
+                        "metric": {
+                            "metric": "ACCURACY"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.6052631578947368
+                    },
+                    {
+                        "metric": {
+                            "metric": "PRECISION"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.3078029904606917
+                    },
+                    {
+                        "metric": {
+                            "metric": "RECALL"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.37295653907496007
+                    },
+                    {
+                        "metric": {
+                            "metric": "F1"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.32937254385777015
+                    }
+                ],
+                "search_id": "9d33234b-d268-48fd-8ac8-1019f6a28d2a",
+                "system": "mlbox"
+            },
+            "82c744fc-b488-41a5-8091-36c4193de419": {
+                "description": "ExtraTreesClassifier(bootstrap=True, class_weight=None, criterion='gini',\n           max_depth=10, max_features='sqrt', max_leaf_nodes=None,\n           min_impurity_decrease=0.0, min_impurity_split=None,\n           min_samples_leaf=1, min_samples_split=2,\n           min_weight_fraction_leaf=0.0, n_estimators=400, n_jobs=-1,\n           oob_score=False, random_state=0, verbose=0, warm_start=False)",
+                "model": "ExtraTreesClassifier",
+                "model_id": "82c744fc-b488-41a5-8091-36c4193de419",
+                "produce": [
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/24e64ab3-964d-4e74-b4ee-442796924dac.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_Fearon_Laitin/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/fd9f31c4-ced1-44dd-ac90-b2613a9f4f3a.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_Fearon_Laitin/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/cbde93dc-fb1d-4690-a2a4-8a09d6b4fc74.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/test/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/3f790154-deb9-45ea-996d-18e4f8e98f20.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/test/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/fb6caa4f-89f0-4902-8e74-e2b9207780d5.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/4a6b6bb7-447b-4a5d-8f4e-84216c0e8361.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/e887fede-f11c-4470-b82b-e20ce6eb2503.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/4270cd39-ee65-4048-aece-8ba0affc0dba.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/tables/learningData.csv"
+                        }
+                    }
+                ],
+                "scores": [
+                    {
+                        "metric": {
+                            "metric": "ROC_AUC"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.4863104731525784
+                    },
+                    {
+                        "metric": {
+                            "metric": "ACCURACY"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.6973684210526315
+                    },
+                    {
+                        "metric": {
+                            "metric": "PRECISION"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.1824874686716792
+                    },
+                    {
+                        "metric": {
+                            "metric": "RECALL"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.060340244550770875
+                    },
+                    {
+                        "metric": {
+                            "metric": "F1"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.08525001066908758
+                    }
+                ],
+                "search_id": "9d33234b-d268-48fd-8ac8-1019f6a28d2a",
+                "system": "mlbox"
+            },
+            "861645cd-6868-4980-9bb9-131e71921729": {
+                "description": "AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,\n          learning_rate=0.05, n_estimators=400, random_state=0)",
+                "model": "AdaBoostClassifier",
+                "model_id": "861645cd-6868-4980-9bb9-131e71921729",
+                "produce": [
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/71dcc325-de7c-47dd-8610-7e4e723d8778.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_Fearon_Laitin/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/7058d7f3-c650-491c-9d40-01700ff1c6d2.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_Fearon_Laitin/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/f6cc4126-42f2-42cd-b296-c5a187b34bc3.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/test/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/d3807145-9021-4d88-a736-b287a113297d.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/test/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/8b19d1dd-3b16-4335-be26-1616e1c6a68c.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/1a0e813f-55f7-47a1-9be6-f6ec28424b3a.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/413a5e04-7a94-4c76-beb6-feef4a75837b.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/a7e903ca-3c21-4f6c-85cb-378d27bfd1d6.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/tables/learningData.csv"
+                        }
+                    }
+                ],
+                "scores": [
+                    {
+                        "metric": {
+                            "metric": "ROC_AUC"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.4989470110213144
+                    },
+                    {
+                        "metric": {
+                            "metric": "ACCURACY"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.7039473684210527
+                    },
+                    {
+                        "metric": {
+                            "metric": "PRECISION"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.231203007518797
+                    },
+                    {
+                        "metric": {
+                            "metric": "RECALL"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.0857589048378522
+                    },
+                    {
+                        "metric": {
+                            "metric": "F1"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.12322472848788639
+                    }
+                ],
+                "search_id": "9d33234b-d268-48fd-8ac8-1019f6a28d2a",
+                "system": "mlbox"
+            },
+            "ebc8d274-cf7d-45ef-b386-08a9301b5cb8": {
+                "description": "LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,\n          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=-1,\n          penalty='l2', random_state=0, solver='liblinear', tol=0.0001,\n          verbose=0, warm_start=False)",
+                "model": "LogisticRegression",
+                "model_id": "ebc8d274-cf7d-45ef-b386-08a9301b5cb8",
+                "produce": [
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/7bad768f-f9c7-45c7-be2d-6a6632127b91.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_Fearon_Laitin/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/574960a4-2d25-40f0-aa3f-de5582b8cf15.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_Fearon_Laitin/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/47aaac30-8217-4188-aeca-69b70ab65e51.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/test/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/e666e467-9161-4a69-90a5-1dbd711d6152.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/test/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/86fc561e-83c5-4057-b1ee-f7e9dba3de16.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/37ef6bec-fb64-4ef6-931f-501de872d7a6.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/82b7c1a3-4394-4f57-a20d-35e693ca5c1f.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/ee004a71-d9f6-4667-818d-d1b5d9050a73.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/tables/learningData.csv"
+                        }
+                    }
+                ],
+                "scores": [
+                    {
+                        "metric": {
+                            "metric": "ROC_AUC"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.5447976419435397
+                    },
+                    {
+                        "metric": {
+                            "metric": "ACCURACY"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.7324561403508771
+                    },
+                    {
+                        "metric": {
+                            "metric": "PRECISION"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.4344193817878028
+                    },
+                    {
+                        "metric": {
+                            "metric": "RECALL"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.16555356193514087
+                    },
+                    {
+                        "metric": {
+                            "metric": "F1"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.21880105535596817
+                    }
+                ],
+                "search_id": "9d33234b-d268-48fd-8ac8-1019f6a28d2a",
+                "system": "mlbox"
+            }
+        },
+        "mljar-supervised": {
+            "3f30de7b-df54-40d8-93e7-d0c521195fee": {
+                "description": "<supervised.iterative_learner_framework.IterativeLearner object at 0x7f0a82b83ba8>",
+                "model": "CatBoost",
+                "model_id": "3f30de7b-df54-40d8-93e7-d0c521195fee",
+                "produce": [
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/1cecb9b6-151d-4a6f-97b0-1a0bb5023195.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_Fearon_Laitin/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/f8412400-b7a3-4e2c-83a9-f275771fa867.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_Fearon_Laitin/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/a4803679-c431-4c14-b078-1154d595c3a3.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/test/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/ddd3574a-6c94-44fc-9cbe-c50ca5042b89.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/test/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/33debd03-2eeb-4806-b3b6-008836664b01.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/9a4755ad-148d-4b90-948f-b7fd82b5b142.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/1950be2e-b860-4a7c-b7ed-a3effea67875.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/c459a4f2-475d-4320-adc9-94bb2c5d20c8.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/tables/learningData.csv"
+                        }
+                    }
+                ],
+                "scores": [
+                    {
+                        "metric": {
+                            "metric": "ROC_AUC"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.5089712918660287
+                    },
+                    {
+                        "metric": {
+                            "metric": "ACCURACY"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.7521929824561403
+                    },
+                    {
+                        "metric": {
+                            "metric": "PRECISION"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.09868421052631579
+                    },
+                    {
+                        "metric": {
+                            "metric": "RECALL"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.017942583732057416
+                    },
+                    {
+                        "metric": {
+                            "metric": "F1"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.03036437246963563
+                    }
+                ],
+                "search_id": "7e37d363-95d6-4469-b1bf-73af7f605966",
+                "system": "mljar-supervised"
+            },
+            "4476fbfb-a6a8-4ee0-81e6-6cf7d8ed1727": {
+                "description": "<supervised.models.ensemble.Ensemble object at 0x7f0a82bc6668>",
+                "model": "Ensemble",
+                "model_id": "4476fbfb-a6a8-4ee0-81e6-6cf7d8ed1727",
+                "produce": [
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/0af12e8c-4b7b-451a-a476-35aaf16c31d2.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_Fearon_Laitin/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/792d41df-b6df-498f-bb3c-e07bc78c6982.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/test/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/6c937efe-d040-4e02-9e85-9e204dde3fb0.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/bd6ec5d8-4f22-4bd8-9496-4d586e5828bc.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/9c614823-d4d4-41c4-91de-3d30b1a7403d.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/514b2090-bdc4-4d7a-b597-ed0f78f71969.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/tables/learningData.csv"
+                        }
+                    }
+                ],
+                "search_id": "7e37d363-95d6-4469-b1bf-73af7f605966",
+                "system": "mljar-supervised"
+            },
+            "6488dc1f-3daf-4ed6-ae5d-3cb252eaeec8": {
+                "description": "<supervised.iterative_learner_framework.IterativeLearner object at 0x7f0b916f5a58>",
+                "model": "Xgboost",
+                "model_id": "6488dc1f-3daf-4ed6-ae5d-3cb252eaeec8",
+                "produce": [
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/397ec0a5-ea51-413c-86e5-04c6ee2debef.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_Fearon_Laitin/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/15718874-73a1-4f8a-8a77-0c8db5cebfce.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_Fearon_Laitin/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/c02f8c95-f1e3-4a27-8e0d-2f89f606a107.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/test/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/64b7ba5d-48a6-4df0-ae75-326faaea550b.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/test/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/31db35a3-0a9c-452c-926b-b3aec261dad8.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/38f063b9-247b-4d6e-a879-9ac7a3b85529.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/51fbb989-7bb2-4919-8794-3a6d87393abd.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/97a312fd-83c8-4c47-ad68-14692b6e24cd.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/tables/learningData.csv"
+                        }
+                    }
+                ],
+                "scores": [
+                    {
+                        "metric": {
+                            "metric": "ROC_AUC"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.4970975232198142
+                    },
+                    {
+                        "metric": {
+                            "metric": "ACCURACY"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.743421052631579
+                    },
+                    {
+                        "metric": {
+                            "metric": "PRECISION"
+                        },
+                        "target": "sftpcons",
+                        "value": 0
+                    },
+                    {
+                        "metric": {
+                            "metric": "RECALL"
+                        },
+                        "target": "sftpcons",
+                        "value": 0
+                    },
+                    {
+                        "metric": {
+                            "metric": "F1"
+                        },
+                        "target": "sftpcons",
+                        "value": 0
+                    }
+                ],
+                "search_id": "7e37d363-95d6-4469-b1bf-73af7f605966",
+                "system": "mljar-supervised"
+            },
+            "bb7546b3-de7a-4111-9479-66bf96a3f994": {
+                "description": "<supervised.iterative_learner_framework.IterativeLearner object at 0x7f0a82c7bdd8>",
+                "model": "Xgboost",
+                "model_id": "bb7546b3-de7a-4111-9479-66bf96a3f994",
+                "produce": [
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/09674632-8188-45b3-a03f-8196e9ecaa3f.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_Fearon_Laitin/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/4e45310f-02e8-412d-96c6-96896250a5d2.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_Fearon_Laitin/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/a5f4823f-6a1c-4830-b0ce-705a4101e76d.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/test/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/ba235782-2cf7-4f34-9807-4e330bd2aef9.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/test/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/02371ec2-3ace-4aad-a950-b7b7233280e6.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/d3a4f6c6-a1e8-4dbf-8e2e-5afce5e55b47.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/ee99aa44-813c-4f61-b318-e3069b135920.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/4a25688d-d727-4141-a74b-bf4d96ddde55.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/tables/learningData.csv"
+                        }
+                    }
+                ],
+                "scores": [
+                    {
+                        "metric": {
+                            "metric": "ROC_AUC"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.4970975232198142
+                    },
+                    {
+                        "metric": {
+                            "metric": "ACCURACY"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.743421052631579
+                    },
+                    {
+                        "metric": {
+                            "metric": "PRECISION"
+                        },
+                        "target": "sftpcons",
+                        "value": 0
+                    },
+                    {
+                        "metric": {
+                            "metric": "RECALL"
+                        },
+                        "target": "sftpcons",
+                        "value": 0
+                    },
+                    {
+                        "metric": {
+                            "metric": "F1"
+                        },
+                        "target": "sftpcons",
+                        "value": 0
+                    }
+                ],
+                "search_id": "7e37d363-95d6-4469-b1bf-73af7f605966",
+                "system": "mljar-supervised"
+            }
+        },
+        "tpot": {
+            "9d0aecea-a961-48c8-818a-5616491a0cf3": {
+                "description": "Pipeline(memory=None,\n     steps=[('randomforestclassifier', RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',\n            max_depth=None, max_features=0.8500000000000001,\n            max_leaf_nodes=None, min_impurity_decrease=0.0,\n            min_impurity_split=None, min_samples_leaf=8,\n            min_samples_split=13, min_weight_fraction_leaf=0.0,\n            n_estimators=100, n_jobs=None, oob_score=False,\n            random_state=None, verbose=0, warm_start=False))])",
+                "model": "Pipeline",
+                "model_id": "9d0aecea-a961-48c8-818a-5616491a0cf3",
+                "produce": [
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/2c4e448e-c445-456d-af9a-6da030fe71bb.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_Fearon_Laitin/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/8d5c3a06-df03-4dc7-b0ad-9ad332290c12.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_Fearon_Laitin/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/40d565f6-1a73-46c1-b844-2a7fdf68f175.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/test/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/d1cf4c45-0e07-40f7-b77e-1052070869a6.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/test/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/7e776957-f150-4f9f-b639-daeafa4f8193.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/8c2420e8-1a64-411f-bb59-d8c770bc0ba3.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/3ca09d8f-2dd5-4320-ae50-d1dd52eb5c20.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/44b97feb-e274-4089-b201-7e27b17ee0ba.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/tables/learningData.csv"
+                        }
+                    }
+                ],
+                "scores": [
+                    {
+                        "metric": {
+                            "metric": "ROC_AUC"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.4837985393519449
+                    },
+                    {
+                        "metric": {
+                            "metric": "ACCURACY"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.7017543859649122
+                    },
+                    {
+                        "metric": {
+                            "metric": "PRECISION"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.09194862155388471
+                    },
+                    {
+                        "metric": {
+                            "metric": "RECALL"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.04372674109516215
+                    },
+                    {
+                        "metric": {
+                            "metric": "F1"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.05757362155388472
+                    }
+                ],
+                "search_id": "c13b7ebb-7e7e-440a-a50a-a3d7b81323c1",
+                "system": "tpot"
+            },
+            "c9e562d4-0651-4123-9bf4-70556ff06130": {
+                "description": "Pipeline(memory=None,\n     steps=[('stackingestimator', StackingEstimator(estimator=LinearSVC(C=20.0, class_weight=None, dual=False, fit_intercept=True,\n     intercept_scaling=1, loss='squared_hinge', max_iter=1000,\n     multi_class='ovr', penalty='l2', random_state=None, tol=0.001,\n     verbose=0))), ('randomforestclassifier...ors=100, n_jobs=None, oob_score=False,\n            random_state=None, verbose=0, warm_start=False))])",
+                "model": "Pipeline",
+                "model_id": "c9e562d4-0651-4123-9bf4-70556ff06130",
+                "produce": [
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/eed2c7d5-df9b-4a78-8917-efc018cf0e99.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_Fearon_Laitin/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/1b2bafa4-eb0e-4e8b-9bf0-51775b516269.csv",
+                        "input": {
+                            "name": "all",
+                            "resource_uri": "file:///ravens_volume/test_data/TR13c_Goldstone_Table_3_Fearon_Laitin/TRAIN/dataset_TRAIN/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/620c36cd-4613-40bd-90d4-127ec5d84813.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/test/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/7b71130a-e912-4814-84cd-6638b57ef2cf.csv",
+                        "input": {
+                            "name": "test",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/test/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/c8ea99f5-9afa-4649-8862-b523bf4b6e37.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/ff908714-22ea-471d-9da0-679b6e205ebb.csv",
+                        "input": {
+                            "name": "train",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/train/ws_525/2019-11-13_02-51-56/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "RAW"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/db1aee94-c103-4ce4-81d9-3455731ad1fd.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/tables/learningData.csv"
+                        }
+                    },
+                    {
+                        "configuration": {
+                            "predict_type": "PROBABILITIES"
+                        },
+                        "data_pointer": "/ravens_volume/solvers/produce/a2924ac5-e163-4af3-8ca0-033091a2830a.csv",
+                        "input": {
+                            "name": "partials",
+                            "resource_uri": "file:///ravens_volume/test_output/TR13c_Goldstone_Table_3_Fearon_Laitin/additional_inputs/partials/ws_525/2019-11-13_02-51-55/tables/learningData.csv"
+                        }
+                    }
+                ],
+                "scores": [
+                    {
+                        "metric": {
+                            "metric": "ROC_AUC"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.5083112750682409
+                    },
+                    {
+                        "metric": {
+                            "metric": "ACCURACY"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.7214912280701754
+                    },
+                    {
+                        "metric": {
+                            "metric": "PRECISION"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.23766447368421054
+                    },
+                    {
+                        "metric": {
+                            "metric": "RECALL"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.0779173312068049
+                    },
+                    {
+                        "metric": {
+                            "metric": "F1"
+                        },
+                        "target": "sftpcons",
+                        "value": 0.10879340726986154
+                    }
+                ],
+                "search_id": "c13b7ebb-7e7e-440a-a50a-a3d7b81323c1",
+                "system": "tpot"
+            }
+        }
+    },
+    "solverState": {
+        "d3m": {
+            "message": "searching for solutions",
+            "searchId": "1",
+            "thinking": true
+        },
+        "h2o": {
+            "elapsed_time": 30.870360136032104,
+            "message": "search complete",
+            "searchId": "1e45c675-adb9-456b-9d88-4f27618bbbb1",
+            "thinking": false
+        },
+        "mlbox": {
+            "elapsed_time": 31.73533582687378,
+            "message": "search complete",
+            "searchId": "9d33234b-d268-48fd-8ac8-1019f6a28d2a",
+            "thinking": false
+        },
+        "mljar-supervised": {
+            "elapsed_time": 455.38573813438416,
+            "message": "search complete",
+            "searchId": "7e37d363-95d6-4469-b1bf-73af7f605966",
+            "thinking": false
+        },
+        "tpot": {
+            "elapsed_time": 14.016812801361084,
+            "message": "search complete",
+            "searchId": "c13b7ebb-7e7e-440a-a50a-a3d7b81323c1",
+            "thinking": false
+        }
+    },
+    "splitOptions": {
+        "outOfSampleSplit": true,
+        "stratified": true,
+        "trainTestRatio": 0.35
+    },
+    "subTask": "binary",
+    "system": "solved",
+    "tags": {
+        "crossSection": [],
+        "loose": [],
+        "nominal": [],
+        "time": [],
+        "transformed": [],
+        "weights": []
+    },
+    "targets": [
+        "sftpcons"
+    ],
+    "task": "classification",
+    "unedited": true
+}
